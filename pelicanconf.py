@@ -74,3 +74,14 @@ PAGINATION_PATTERNS = (
     (1, '{base_name}/', '{base_name}/index.html'),
     (2, '{base_name}/p/{number}/', '{base_name}/p/{number}/index.html'),
 )
+
+
+# tags 
+TAG_URL = 'tag/{slug}/'
+TAG_SAVE_AS = 'tag/{slug}/index.html'
+TAGS_URL = 'tags/'
+TAGS_SAVE_AS = 'tags/index.html'
+
+AUTHOR_SAVE_AS = False
+CATEGORY_SAVE_AS = False
+
