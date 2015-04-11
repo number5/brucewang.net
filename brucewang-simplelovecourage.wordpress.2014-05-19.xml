@@ -2077,14 +2077,14 @@ scim -d &amp;
 	<item>
 				<title>当当 Vs 卓越</title>
 		<link>http://brucewang.net/?p=26</link>
-		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov 2006 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://brucewang.net/?p=26</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>26</wp:post_id>
-		<wp:post_date>0000-00-00 00:00:00</wp:post_date>
+                <wp:post_date>2006-11-30 00:00:00</wp:post_date>
 		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
@@ -2100,14 +2100,14 @@ scim -d &amp;
 	<item>
 				<title>邪恶的谷歌</title>
 		<link>http://brucewang.net/?p=27</link>
-		<pubDate>Wed, 30 Nov -0001 00:00:00 +0000</pubDate>
+		<pubDate>Wed, 30 Nov 2006 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://brucewang.net/?p=27</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>27</wp:post_id>
-		<wp:post_date>0000-00-00 00:00:00</wp:post_date>
+                <wp:post_date>2006-11-30 00:00:00</wp:post_date>
 		<wp:post_date_gmt>0000-00-00 00:00:00</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
