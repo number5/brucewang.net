@@ -8,13 +8,10 @@ Status: published
 Wordpress-Id: 195
 Link: http://brucewang.net/2010/01/13/195
 
-> Official Google Blog: A new approach to China {style="text-align: left;"}
+> Official Google Blog: A new approach to China
 > =============================================
 
-［最初版本来自 <span
-id="pk.v">[@ruanji](https://twitter.com/ruanji "ruanji @ twitter")</span>
-<span
-id="wy8e">[http://jiblog.jiruan.net/?p=2462,](http://jiblog.jiruan.net/?p=2462 "http://jiblog.jiruan.net/?p=2462")</span>
+［最初版本来自 [@ruanji](https://twitter.com/ruanji "ruanji @ twitter") [http://jiblog.jiruan.net/?p=2462](http://jiblog.jiruan.net/?p=2462 "http://jiblog.jiruan.net/?p=2462")
 由多人通过Google Docs 协同翻译而成]
 
 [英文原文](http://googleblog.blogspot.com/2010/01/new-approach-to-china.html)来自Google官方博客

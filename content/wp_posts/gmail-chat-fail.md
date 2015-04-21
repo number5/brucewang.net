@@ -1,4 +1,4 @@
-Title: No title [https-twitter-com-number5-status-88088849938522112]
+Title: Gmail FAIL
 Date: 2011-07-05 22:06
 Author: number5
 Category: status
