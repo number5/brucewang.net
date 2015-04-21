@@ -1,6 +1,6 @@
 Title: 我的Firefox Addons(Extensions, Themes)
 Date: 2006-10-13 13:55
-Author: admin
+Author: number5
 Category: Geek
 Tags: addons, extensions, firefox
 Slug: 9

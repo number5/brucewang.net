@@ -1,6 +1,6 @@
 Title: 2006时代年度人物：你
 Date: 2006-12-18 15:36
-Author: admin
+Author: number5
 Category: web2.0
 Tags: person_of_the_year, time_weekly, web2.0, you
 Slug: 24

@@ -1,6 +1,5 @@
 Title: Twitter Updates for 2007-09-07
 Date: 2007-09-07 23:59
-Author:  
 Category: blog
 Slug: 76
 Status: published

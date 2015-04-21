@@ -1,6 +1,6 @@
 Title: building ubuntu backports is HARD!
 Date: 2007-06-19 19:37
-Author: admin
+Author: number5
 Category: Ubuntu
 Tags: backports, php5, Ubuntu
 Slug: 47

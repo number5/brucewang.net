@@ -1,6 +1,6 @@
 Title: We don't need i-names in OpenID 2.0 specs, please keep OpenID lightweight 
 Date: 2007-02-13 16:40
-Author: admin
+Author: number5
 Category: blog
 Tags: i-names, identity, openid, url-based
 Slug: 37

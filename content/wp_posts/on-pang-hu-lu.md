@@ -1,6 +1,6 @@
 Title: 关于胖葫芦的一些意见和建议
 Date: 2006-11-21 13:45
-Author: admin
+Author: number5
 Category: Geek
 Tags: atom, 胖葫芦, Geek, mobile, openid, RSS
 Slug: 19

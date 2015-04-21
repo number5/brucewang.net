@@ -1,6 +1,6 @@
 Title: OpenID consumer is ready! 
 Date: 2007-03-18 21:04
-Author: admin
+Author: number5
 Category: openid
 Tags: openid, wordpress
 Slug: 41

@@ -1,6 +1,6 @@
 Title: 给老冒留言, Re: 在上海移动“旗舰店”体验
 Date: 2006-11-10 14:55
-Author: admin
+Author: number5
 Category: rants
 Tags: 电信, 留言, 移动, 老冒, rants, uuzone
 Slug: 15

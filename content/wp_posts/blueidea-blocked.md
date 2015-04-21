@@ -1,6 +1,6 @@
 Title: [转载][紧急通告]关于蓝色理想经典论坛无法访问的声明
 Date: 2007-11-13 00:31
-Author: admin
+Author: number5
 Category: blog, Internet
 Tags: blueidea, 紧急, 蓝色理想, 声明
 Slug: 120

@@ -1,6 +1,6 @@
 Title: 变形金刚电影观后感
 Date: 2007-07-23 12:04
-Author: admin
+Author: number5
 Category: movies
 Tags: cartoon, movies, transformers
 Slug: 48

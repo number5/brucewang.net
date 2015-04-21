@@ -1,6 +1,5 @@
 Title: Twitter Updates for 2007-08-28
 Date: 2007-08-28 23:59
-Author:  
 Category: blog
 Slug: 67
 Status: published

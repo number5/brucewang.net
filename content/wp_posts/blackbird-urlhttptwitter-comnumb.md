@@ -1,4 +1,4 @@
-Title: No title [blackbird-urlhttptwitter-comnumb]
+Title: tweets
 Date: 2010-11-06 12:02
 Author: number5
 Category: status
@@ -8,4 +8,4 @@ Status: published
 Wordpress-Id: 219
 Link: http://brucewang.net/2010/11/06/219
 
-https://twitter.com/number5/status/699305841131520
+@number5/status/699305841131520

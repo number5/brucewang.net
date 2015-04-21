@@ -1,6 +1,6 @@
 Title:  Joe Gregorio: Radical Simplicity: Lessons From Dynamic Languages
 Date: 2006-10-18 15:03
-Author: admin
+Author: number5
 Category: framework, python
 Tags: dynamic_languages, framework, python, simplicity, slides, web_frameworks
 Slug: 10

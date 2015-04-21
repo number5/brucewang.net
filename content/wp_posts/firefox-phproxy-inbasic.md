@@ -1,6 +1,6 @@
 Title: 给非IT人士用的穿墙工具： Firefox PhProxy InBasic扩展
 Date: 2007-07-23 13:38
-Author: admin
+Author: number5
 Category: gfw
 Tags: addons, firefox, gfw, phpproxy
 Slug: 49

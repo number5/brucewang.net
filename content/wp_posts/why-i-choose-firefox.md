@@ -1,6 +1,6 @@
 Title: 为什么我会选择Firefox
 Date: 2007-01-20 17:34
-Author: admin
+Author: number5
 Category: blog
 Tags: browser, firefox, why
 Slug: 30

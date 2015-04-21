@@ -1,6 +1,6 @@
 Title: Wordpress的升级和插件的版本管理
 Date: 2007-03-18 20:36
-Author: admin
+Author: number5
 Category: blog
 Tags: dokuwiki, plugins, plugin_manager, upgrade, wordpress
 Slug: 39

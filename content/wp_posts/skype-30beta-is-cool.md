@@ -1,6 +1,6 @@
 Title: Skype 3.0beta is cool
 Date: 2006-11-09 01:21
-Author: admin
+Author: number5
 Category: alwayson, Geek
 Tags: alwayson, publicchat, skype
 Slug: 14

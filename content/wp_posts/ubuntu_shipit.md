@@ -1,6 +1,6 @@
 Title: 收到Ubuntu 6.06 的免费光碟了
 Date: 2006-06-22 11:59
-Author: admin
+Author: number5
 Category: Ubuntu
 Tags: linux, shipit, Ubuntu
 Slug: 3

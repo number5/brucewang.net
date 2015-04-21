@@ -1,6 +1,6 @@
 Title: 互联网真的是互连互通的么？
 Date: 2007-01-27 14:52
-Author: admin
+Author: number5
 Category: alwayson, Internet
 Tags: dreamhost, gmail, Internet, isp, socks5, 中国, 互联网
 Slug: 32

@@ -1,6 +1,6 @@
 Title: 联络家(Linkist.com)招募PHP/Java开发人员
 Date: 2007-04-10 17:55
-Author: admin
+Author: number5
 Category: job, web2.0
 Slug: 45
 Status: published

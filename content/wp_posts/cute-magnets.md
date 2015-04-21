@@ -1,6 +1,6 @@
 Title: Cute Magnets
 Date: 2006-08-19 17:33
-Author: admin
+Author: number5
 Category: Life
 Tags: cute, Life, magnets, photo, refrigerator
 Slug: 4

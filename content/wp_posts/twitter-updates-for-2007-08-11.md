@@ -1,6 +1,6 @@
 Title: Twitter Updates for 2007-08-11
 Date: 2007-08-11 23:59
-Author: admin
+Author: number5
 Category: blog
 Slug: 50
 Status: published

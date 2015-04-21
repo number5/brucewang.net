@@ -1,6 +1,6 @@
 Title: （迟到的）OpenID每周简报
 Date: 2007-03-31 00:32
-Author: admin
+Author: number5
 Category: blog
 Tags: highrise, openid, pavatar, phpbb, yupoo
 Slug: 42

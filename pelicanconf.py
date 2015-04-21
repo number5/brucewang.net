@@ -58,8 +58,8 @@ GITHUB_ADDRESS = 'https://github.com/number5'
 TWITTER_ADDRESS = 'https://twitter.com/number5'
 
 #PROFILE_IMAGE_URL
-#LICENSE_URL = cc-sa-nc 
-#LICENSE_NAME = CC 
+LICENSE_URL = 'http://creativecommons.org/licenses/by-nc/4.0/'
+LICENSE_NAME = 'Creative Commons Attribution-NonCommercial 4.0 International License'
 
 SHOW_ARTICLE_AUTHOR = False
 
@@ -85,3 +85,6 @@ TAGS_SAVE_AS = 'tags/index.html'
 AUTHOR_SAVE_AS = False
 CATEGORY_SAVE_AS = False
 
+
+# plugins
+PLUGINS = ['plugins.embed_tweet']

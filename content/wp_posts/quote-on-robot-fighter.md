@@ -1,6 +1,6 @@
 Title: Quote on robot fighter
 Date: 2006-09-07 15:53
-Author: admin
+Author: number5
 Category: alwayson
 Tags: air_force, alwayson, robot
 Slug: 7

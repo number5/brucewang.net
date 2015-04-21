@@ -1,6 +1,6 @@
 Title: Sourceforge.net和Flashget有仇？
 Date: 2007-03-15 16:31
-Author: admin
+Author: number5
 Category: Geek
 Tags: flashget, sourceforge, wget
 Slug: 38

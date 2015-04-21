@@ -1,6 +1,6 @@
 Title: 没办法在Dreamhost上安装Wordpress OpenID插件
 Date: 2007-10-25 01:11
-Author: admin
+Author: number5
 Category: blog, openid
 Tags: dreamhost, openid, wordpress
 Slug: 108

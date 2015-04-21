@@ -1,6 +1,6 @@
 Title: Vim tips: 时间戳快捷键
 Date: 2006-12-31 14:47
-Author: admin
+Author: number5
 Category: Geek
 Tags: shortcut, tips, vim
 Slug: 25

@@ -1,6 +1,6 @@
 Title: 胖葫芦手机RSS阅读器
 Date: 2006-11-17 02:09
-Author: admin
+Author: number5
 Category: Geek
 Tags: 2d-barcode, 胖葫芦, j2me, mobile, opera-mini, rss-reader
 Slug: 17

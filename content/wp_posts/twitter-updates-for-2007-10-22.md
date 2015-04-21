@@ -1,6 +1,6 @@
 Title: Twitter Updates for 2007-10-22
 Date: 2007-10-22 23:59
-Author: admin
+Author: number5
 Category: blog
 Slug: 107
 Status: published

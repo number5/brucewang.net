@@ -1,6 +1,6 @@
 Title: Daily Digest for May 7th
 Date: 2009-05-07 03:31
-Author: admin
+Author: number5
 Category: blog
 Slug: 171
 Status: published

@@ -1,6 +1,6 @@
 Title: 新浪博客 到 Wordpress 搬家(迁移) 指南 (DRAFT)
 Date: 2007-01-16 18:32
-Author: admin
+Author: number5
 Category: blog
 Tags: migration, sinablog, wordpress, 搬家
 Slug: 28

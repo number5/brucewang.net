@@ -1,6 +1,6 @@
 Title: 让人头痛的有线通
 Date: 2007-03-31 01:00
-Author: admin
+Author: number5
 Category: alwayson, Life
 Tags: ARP-attack, cable_modem, 宽带, 有线通, 上海
 Slug: 44
