@@ -1,0 +1,1772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bruce Wang - Simple, Love, Courage</title><link>https://brucewang.net/</link><description></description><atom:link href="https://brucewang.net/feeds/number5.rss.xml" rel="self"></atom:link><lastBuildDate>Sat, 11 Apr 2015 13:50:00 +1000</lastBuildDate><item><title>A new beginning</title><link>https://brucewang.net/2015/04/new-start.html</link><description>&lt;p&gt;It has been a long time I haven't written any serious blog post.&lt;/p&gt;
+&lt;p&gt;But what can be more fun than using a new blog software (Pelican in this case) 
+migrating everything over.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 11 Apr 2015 13:50:00 +1000</pubDate><guid>tag:brucewang.net,2015-04-11:2015/04/new-start.html</guid></item><item><title>List all listening ports in OS X (tested with Mavericks)</title><link>https://brucewang.net/2014/04/267.html</link><description>&lt;p&gt;&lt;code&gt;sudo lsof -i4 -P -n |grep LISTEN&lt;/code&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 22 Apr 2014 11:54:00 +1000</pubDate><guid>tag:brucewang.net,2014-04-22:2014/04/267.html</guid><category>command-line</category><category>listening</category><category>lsof</category><category>mavericks</category><category>oneliner</category><category>osx</category></item><item><title>apt import unknown key oneliner</title><link>https://brucewang.net/2012/11/253.html</link><description>&lt;p&gt;&lt;code&gt;sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys [key_id]&lt;/code&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 20 Nov 2012 10:44:00 +1100</pubDate><guid>tag:brucewang.net,2012-11-20:2012/11/253.html</guid><category>apt</category><category>gpg</category><category>key</category><category>linux</category><category>oneliner</category><category>Ubuntu</category></item><item><title>No title [249]</title><link>https://brucewang.net/2012/11/249.html</link><description>&lt;p&gt;Thinking how to put the fun back into blogging&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 08 Nov 2012 21:59:00 +1100</pubDate><guid>tag:brucewang.net,2012-11-08:2012/11/249.html</guid></item><item><title>How to upgrade U8800 to genokolar's CyanogenMod7 20120107 ROM</title><link>https://brucewang.net/2012/01/228.html</link><description>&lt;p&gt;Now with 20120107 cm7, all good, signal, battery, camera, etc.&lt;/p&gt;
+&lt;p&gt;Here is what I've done:&lt;/p&gt;
+&lt;p&gt;* Download Huawei official 2.3.5 beta1 ROM (&lt;a href="http://www.google.com/search?q=U8800V100R001C00B517G001"&gt;google
+U8800V100R001C00B517G001&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;* unzip and putting UPDATE.APP in your /sdcard/dload folder (I stupidly
+put the whole zip in at the first time... )&lt;/p&gt;
+&lt;p&gt;* following the rest of
+&lt;a href="http://forum.xda-developers.com/showpost.php?p=19837995&amp;amp;postcount=31" title="instructions"&gt;instructions&lt;/a&gt;
+to upgrade&lt;/p&gt;
+&lt;p&gt;* I'm not able to root using SuperOneClick 2.2.3 automatically, so
+manually rooted it as per &lt;a href="http://forum.xda-developers.com/showpost.php?p=20932026&amp;amp;postcount=1"&gt;[TUTORIAL]How to manual root official
+2.3&lt;/a&gt;
+(only difference is I'm using zergRush in SuperOneClick)&lt;/p&gt;
+&lt;p&gt;* remount cust_backup read-write and replace recovery.img with
+&lt;a href="http://forum.xda-developers.com/showpost.php?p=19281310&amp;amp;postcount=1"&gt;clockworkmod
+5.0.2.7&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;* power off phone and get into CWM Recovery by VOL+POWER keys&lt;/p&gt;
+&lt;p&gt;* normal cm7 upgrade process: wipe data, wipe dalivk cache, install the
+zip from
+&lt;a href="http://forum.xda-developers.com/showpost.php?p=18585816&amp;amp;postcount=1"&gt;【rom】u8800pro&amp;amp;u8800-cm7-120107&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;* reboot and done :)&lt;/p&gt;
+&lt;p&gt;Thanks genokolar for the ROM and julle131 helping me.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 14 Jan 2012 11:48:00 +1100</pubDate><guid>tag:brucewang.net,2012-01-14:2012/01/228.html</guid><category>android</category><category>clockworkmod</category><category>cm7</category><category>CyanogenMod</category><category>u8800</category></item><item><title>Gmail FAIL</title><link>https://brucewang.net/2011/07/224.html</link><description>&lt;p&gt;https://twitter.com/number5/status/88088849938522112&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 05 Jul 2011 22:06:00 +1000</pubDate><guid>tag:brucewang.net,2011-07-05:2011/07/224.html</guid></item><item><title>tweets</title><link>https://brucewang.net/2010/11/219.html</link><description>&lt;p&gt;&lt;blockquote class="twitter-tweet" align="center"&gt;&lt;a href="https://twitter.com/number5/status/699305841131520"&gt;Tweet of number5/699305841131520&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 06 Nov 2010 12:02:00 +1100</pubDate><guid>tag:brucewang.net,2010-11-06:2010/11/219.html</guid><category>twitter</category></item><item><title>No title [switch-to-disqus-for-comments-will-see]</title><link>https://brucewang.net/2010/09/217.html</link><description>&lt;p&gt;Switch to Disqus for comments, will see how it works with Wordpress&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sun, 12 Sep 2010 10:12:00 +1000</pubDate><guid>tag:brucewang.net,2010-09-12:2010/09/217.html</guid><category>留言</category><category>disqus</category></item><item><title>about to install Ubuntu on my 5-year old...</title><link>https://brucewang.net/2010/08/216.html</link><description>&lt;p&gt;about to install Ubuntu on my 5-year old T43, Funtoo/Gentoo is fun and
+teached me a lot but costs too much time tweaking and compiling, time to
+move on&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 14 Aug 2010 11:35:00 +1000</pubDate><guid>tag:brucewang.net,2010-08-14:2010/08/216.html</guid><category>funtoo</category><category>gentoo</category><category>linux</category><category>Ubuntu</category></item><item><title>wp pubsubhub + buzz test</title><link>https://brucewang.net/2010/02/209.html</link><description>&lt;p&gt;理论上，这post应该实时到达buzz...&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 11 Feb 2010 10:04:00 +1100</pubDate><guid>tag:brucewang.net,2010-02-11:2010/02/209.html</guid></item><item><title>立此存照：百度孙云丰说，Google市侩，我感到恶心</title><link>https://brucewang.net/2010/01/202.html</link><description>&lt;div&gt;
+
+今天下午
+1时20分，百度首席产品设计师孙云丰在自己的博客中撰文关于谷歌退出中国，直指Google退出中国的姿态证明自己是市侩分子，对此感到恶心。
+
+&lt;/div&gt;
+
+&lt;div&gt;
+
+他的博客全文如下：
+
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;div&gt;
+
+&lt;p&gt;google宣称要退出中国，所证明的，恰恰不是市面上的那些g粉所宣称的那样，google是个人权斗士，而
+刚好反了过来，正好证明google是个市侩分子。&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+
+&lt;p&gt;google的首席法律顾问的调调让我感到恶心。因经济利益退出，就直白白的说好了，把自己涂脂抹粉一番，还煞
+有介事的提到google被中国人攻击，中国异议分子的Gmail信箱被攻击，把这些事情作为退出中国的铺垫，这种论调是侮辱中国普通老百姓的智商，但还
+真有可能迎合那帮目空一切，但从未到过中国、对中国没有丝毫了解，却又喜欢对中国说三道四的西方人的假想。&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+
+&lt;p&gt;只提一个假设，如果谷
+歌占据了中国80%的搜索市场份额，google的高管，还会这么高调的宣称要do no
+evil，从中国退出吗？&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;整个事情给我的唯一感 受，就是恶心。  &lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;以
+上是作为一个曾经的忠实google用户而说的，和百度无关。市面上沾沾自喜于了解一点google的产品技术细节将google奉为道德楷模而自封G粉
+的兄弟，请勿跟帖瞎喷，你们根本不懂什么叫搜索引擎，什么叫自由人权。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;立此存照的原因在于，原帖 http://news.csdn.net/a/20100113/216459.html
+被百度的人要求删掉，所以本着对历史负责的态度，保存与此，欢迎转帖。&lt;/p&gt;
+&lt;p&gt;[转自 &lt;a href="https://twitter.com/tinyfool"&gt;&lt;a href="https://twitter.com/tinyfool"&gt;@tinyfool&lt;/a&gt;&lt;/a&gt; 的
+http://tiny4.org/jsjy/sxl/2010/01/google.html ]&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 14 Jan 2010 00:11:00 +1100</pubDate><guid>tag:brucewang.net,2010-01-14:2010/01/202.html</guid><category>#googlecn</category><category>baidu</category><category>google</category><category>sb</category></item><item><title>Official Google Blog: A New Approach to China [中文翻译]</title><link>https://brucewang.net/2010/01/195.html</link><description>&lt;blockquote&gt;
+&lt;h1&gt;Official Google Blog: A new approach to China&lt;/h1&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;［最初版本来自 &lt;a href="https://twitter.com/ruanji" title="ruanji @ twitter"&gt;&lt;a href="https://twitter.com/ruanji"&gt;@ruanji&lt;/a&gt;&lt;/a&gt; &lt;a href="http://jiblog.jiruan.net/?p=2462" title="http://jiblog.jiruan.net/?p=2462"&gt;http://jiblog.jiruan.net/?p=2462&lt;/a&gt;
+由多人通过Google Docs 协同翻译而成]&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://googleblog.blogspot.com/2010/01/new-approach-to-china.html"&gt;英文原文&lt;/a&gt;来自Google官方博客&lt;/p&gt;
+&lt;p&gt;2010年1月12号下午3点00分00秒&lt;/p&gt;
+&lt;p&gt;和许多其他著名组织类似，我们每天都会面对持续的、不
+同程度的网络攻击。去年12月中旬，我们发现许多来自中国的、针对我们公
+司诸多基础设施的、非常复杂且有针对性的攻击，并窃取了一部分本公司的智慧财产。然而，我们很快地意识到，这些起初被认为是单纯的安全
+事件——尽管很严重——完全是另外一回事。&lt;/p&gt;
+&lt;p&gt;首先，这些袭击的对象并不仅仅是Google。作为我们调查的一部分，我们发现，至少有20多家企业
+——其业务范围广泛——包括互联网，金融，技术，媒体和化工等领域——也都成为了攻击目标。我们目前还在通知这些公司的过程中，我们也与美国有关
+当局的工作。&lt;/p&gt;
+&lt;p&gt;第二，我们有证据表明，攻击者的主要目的之一是访问的
+中国人权活动者的Gmail帐户。根据我们到目前为止的调查，我们确信他们的进攻并没有
+达成这一目标。只有两个Gmail帐户明显已被访问，而这些活动也仅
+限于帐户信息（如帐户的创建日期）和主题行，而不是具体的电子邮件内容。&lt;/p&gt;
+&lt;p&gt;第三，独立于针对谷歌攻击的调查显示，有几十个位于美
+国、中国和欧洲的、倡导中国人权的Gmail用户的账户经常会被第三方访问。这些帐户目前还没有被通过任何Google的安全漏洞
+访问过，但这些用户的电脑上很可能已经存在钓鱼或恶意软件。&lt;/p&gt;
+&lt;p&gt;通过对这次袭击所进行的调查所获得的信息，我们已经对
+我们的基础设施和架构进行了改进，以增强我们以及我们的用户的安全性。对于个人用户，我们一直建议他们在电脑上部署知名反病
+毒和反间谍软件程序，安装操作系统补丁，并更新其网络浏览器。在使用即时消息和电子邮件时应保持警惕，特别是在点击
+其中的链接或输入个人信息如密码的时候。您可以看这里了解我们的网络安全的建议。如果想要了解这些类型的攻击更可以阅读这份美国政府的
+报告（PDF格式）， 纳尔特维伦纽夫的博客以及这里对「鬼网」间谍事件的介绍。&lt;/p&gt;
+&lt;p&gt;我们已采取非同寻常的步骤来和广大的受众共享这些攻击
+的信息，不只是因为我们所发掘的对安全和人权的影响，还因为这些信息关系到了一个更大的关于全球言论自由辩论的核心。在过去二十年里，中国的经济改革计划和公民的企业精神
+已经使亿万中华儿女脱离了贫困。事实上，这个伟大的国家处在现代快速经济进步和发展的
+核心。&lt;/p&gt;
+&lt;p&gt;我们在2006年1月推出谷歌中国网站
+Google.cn，是因为我们相信，让中国人民更容易接触到信息以及一个更加开放的互联网的所带来的益处，
+会盖过同意审查某些结果所引起的不适。当时，我们曾明确表示，「我们将密切注视中国的情况，
+包括新的法律和其他对我们服务的限制。如果我们确定无法达到这些既定的目标，我们将毫不犹豫地重新考虑对中国的策略。」&lt;/p&gt;
+&lt;p&gt;这些袭击以及通过它们所发现的监视行为--结合在过去
+一年进一步限制网上言论自由的企图--使我们得出这样的结论：我们应该重新考虑在中国业务的可行性。我们已经决定，我们不再愿意继续在Google.cn
+审查和过滤搜索结果，所以在未来的几周里，如果有可能的话，我们将与中国政府讨论可以在法律范围内运作的未经过滤的搜索引擎的基础。我们认识到，这极有可能意味着不得不关闭
+Google.cn，并有可能进而关闭我们在中国的办事处。&lt;/p&gt;
+&lt;p&gt;决定重新考虑我们的中国业务是一个艰难的决定。我们知道这将可能有深远的影响。我们要明确的是，这一举措是由我们美国的管理人员在那
+些奋力工作成就Google.cn今日成功的中国员工并不知情或参与的情况下作出的。我们正致力于负责任地解决此决定所导致的种种困难问
+题。&lt;/p&gt;
+&lt;p&gt;发布者：大卫·德鲁蒙德，高级副总裁，企业发展和首席 法律官&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Wed, 13 Jan 2010 13:34:00 +1100</pubDate><guid>tag:brucewang.net,2010-01-13:2010/01/195.html</guid><category>censorship</category><category>china</category><category>gfw</category><category>google</category></item><item><title>[全文转载] Official Google Blog: A new approach to China</title><link>https://brucewang.net/2010/01/187.html</link><description>&lt;p&gt;[原文链接:
+http://googleblog.blogspot.com/2010/01/new-approach-to-china.html ]  &lt;/p&gt;
+&lt;p&gt;[&lt;a href="%20http://docs.google.com/Doc?docid=0AUoEgx6tJcdJYWR0djdkandyOGt2XzEzZDJnZmp0NXo&amp;amp;hl=en"&gt;中文翻译进行中，欢迎加入&lt;/a&gt;］&lt;br /&gt;
+Like many other well-known organizations, we face cyber attacks of
+varying degrees on a regular basis. In mid-December, we detected a
+highly sophisticated and targeted attack on our corporate infrastructure
+originating from China that resulted in the theft of intellectual
+property from Google. However, it soon became clear that what at first
+appeared to be solely a security incident--albeit a significant one--was
+something quite different.&lt;/p&gt;
+&lt;p&gt;First, this attack was not just on Google. As part of our investigation
+we have discovered that at least twenty other large companies from a
+wide range of businesses--including the Internet, finance, technology,
+media and chemical sectors--have been similarly targeted. We are
+currently in the process of notifying those companies, and we are also
+working with the relevant U.S. authorities.&lt;/p&gt;
+&lt;p&gt;Second, we have evidence to suggest that a primary goal of the attackers
+was accessing the Gmail accounts of Chinese human rights activists.
+Based on our investigation to date we believe their attack did not
+achieve that objective. Only two Gmail accounts appear to have been
+accessed, and that activity was limited to account information (such as
+the date the account was created) and subject line, rather than the
+content of emails themselves.&lt;/p&gt;
+&lt;p&gt;Third, as part of this investigation but independent of the attack on
+Google, we have discovered that the accounts of dozens of U.S.-, China-
+and Europe-based Gmail users who are advocates of human rights in China
+appear to have been routinely accessed by third parties. These accounts
+have not been accessed through any security breach at Google, but most
+likely via phishing scams or malware placed on the users' computers.&lt;/p&gt;
+&lt;p&gt;We have already used information gained from this attack to make
+infrastructure and architectural improvements that enhance security for
+Google and for our users. In terms of individual users, we would advise
+people to deploy reputable anti-virus and anti-spyware programs on their
+computers, to install patches for their operating systems and to update
+their web browsers. Always be cautious when clicking on links appearing
+in instant messages and emails, or when asked to share personal
+information like passwords online. You can read more here about our
+cyber-security recommendations. People wanting to learn more about these
+kinds of attacks can read this U.S. government report (PDF), Nart
+Villeneuve's blog and this presentation on the GhostNet spying incident.&lt;/p&gt;
+&lt;p&gt;We have taken the unusual step of sharing information about these
+attacks with a broad audience not just because of the security and human
+rights implications of what we have unearthed, but also because this
+information goes to the heart of a much bigger global debate about
+freedom of speech. In the last two decades, China's economic reform
+programs and its citizens' entrepreneurial flair have lifted hundreds of
+millions of Chinese people out of poverty. Indeed, this great nation is
+at the heart of much economic progress and development in the world
+today.&lt;/p&gt;
+&lt;p&gt;We launched Google.cn in January 2006 in the belief that the benefits of
+increased access to information for people in China and a more open
+Internet outweighed our discomfort in agreeing to censor some results.
+At the time we made clear that "we will carefully monitor conditions in
+China, including new laws and other restrictions on our services. If we
+determine that we are unable to achieve the objectives outlined we will
+not hesitate to reconsider our approach to China."&lt;/p&gt;
+&lt;p&gt;These attacks and the surveillance they have uncovered--combined with
+the attempts over the past year to further limit free speech on the
+web--have led us to conclude that we should review the feasibility of
+our business operations in China. We have decided we are no longer
+willing to continue censoring our results on Google.cn, and so over the
+next few weeks we will be discussing with the Chinese government the
+basis on which we could operate an unfiltered search engine within the
+law, if at all. We recognize that this may well mean having to shut down
+Google.cn, and potentially our offices in China.&lt;/p&gt;
+&lt;p&gt;The decision to review our business operations in China has been
+incredibly hard, and we know that it will have potentially far-reaching
+consequences. We want to make clear that this move was driven by our
+executives in the United States, without the knowledge or involvement of
+our employees in China who have worked incredibly hard to make Google.cn
+the success it is today. We are committed to working responsibly to
+resolve the very difficult issues raised.&lt;/p&gt;
+&lt;p&gt;Posted by David Drummond, SVP, Corporate Development and Chief Legal
+Officer&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Wed, 13 Jan 2010 11:39:00 +1100</pubDate><guid>tag:brucewang.net,2010-01-13:2010/01/187.html</guid><category>censorship</category><category>china</category><category>gfw</category><category>google</category></item><item><title>Upgraded wordpress to 2.9.1 and P2 theme...</title><link>https://brucewang.net/2010/01/186.html</link><description>&lt;p&gt;Upgraded wordpress to 2.9.1 and P2 theme to 1.1.3, so far so good :)&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 05 Jan 2010 10:03:00 +1100</pubDate><guid>tag:brucewang.net,2010-01-05:2010/01/186.html</guid><category>wordpress</category></item><item><title>Start working as a Python Web Developer next Monday</title><link>https://brucewang.net/2009/11/184.html</link><description>&lt;p&gt;It's only a five-weeks work placement, but hope that will lead to a
+permanent position in the end. Back to work from long vacation :)&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Fri, 13 Nov 2009 04:57:00 +1100</pubDate><guid>tag:brucewang.net,2009-11-13:2009/11/184.html</guid><category>job</category><category>newlife</category><category>python</category></item><item><title>Dreamhost host is back</title><link>https://brucewang.net/2009/09/183.html</link><description>&lt;p&gt;总算恢复了，:)&lt;br /&gt;
+dreamhost没事帮我搬服务器干嘛啊... 囧&lt;br /&gt;
+不过貌似这台新机器是挺快的... Intel(R) Xeon(R) CPU E5405 @ 2.00GHz&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 17 Sep 2009 00:16:00 +1000</pubDate><guid>tag:brucewang.net,2009-09-17:2009/09/183.html</guid><category>dreamhost</category></item><item><title>我的Firefox Addons列表（2009年6月版）</title><link>https://brucewang.net/2009/06/180.html</link><description>&lt;p&gt;最近Firefox Nightly 3.6a1 crash得厉害，只好退一步选择Firefox
+3.5pre/Shiretoko nightly, 顺便更新下addons 列表  &lt;/p&gt;
+&lt;p&gt;与上次相比最大的变化是去掉了Adblockplus和NoScript这对冤家，挡广告挡flash的事情交由Stylish/Greasemonkey来做，就是要自己手写脚本，有点累&lt;/p&gt;
+&lt;div class="lastupd"&gt;
+
+&lt;span class="hdr"&gt;Last updated:&lt;/span&gt; Sat, 06 Jun 2009 16:01:00 GMT
+
+&lt;/div&gt;
+
+&lt;div class="useragent"&gt;
+
+&lt;span class="hdr"&gt;User Agent:&lt;/span&gt; Mozilla/5.0 (X11; U; Linux i686;
+en-US; rv:1.9.1pre) Gecko/20090604 Shiretoko/3.5pre
+
+&lt;/div&gt;
+
+&lt;div class="extensions"&gt;
+
+### &lt;span class="hdr"&gt;Extensions&lt;/span&gt; (enabled: 19, disabled: 3):
+
+-   [ColorZilla](http://www.colorzilla.com/) 2.0.2.1
+-   [CoLT](http://www.borngeek.com/firefox/colt/) 2.4.4
+-   [DownThemAll! \*nightly\*](http://downthemall.net/)
+    1.2alpha.20090602.1417
+-   [Firebug](http://www.getfirebug.com/) 1.4.0b1
+-   [Firecookie](http://www.janodvarko.cz/firecookie) 0.8
+-   [FirePHP](http://www.firephp.org/) 0.3
+-   [FoxyProxy](http://foxyproxy.mozdev.org) 2.9
+-   [Greasemonkey](http://www.greasespot.net/) 0.8.20090123.1
+-   [HttpFox](http://code.google.com/p/httpfox/) 0.8.4 [disabled]
+-   [InfoLister](http://mozilla.doslash.org/infolister) 0.10
+-   [MLdonkey Protocol
+    Handler](http://www.informatik.uni-oldenburg.de/%7Edyna/mldonkey/)
+    2.5
+-   [Nightly Tester
+    Tools](http://www.oxymoronical.com/web/firefox/nightly) 2.0.2
+-   [ScrapBook](http://amb.vis.ne.jp/mozilla/scrapbook/) 1.3.3.9
+-   [Screengrab](http://www.screengrab.org/) 0.96.1
+-   [Signature](http://signature.mozdev.org/) 0.4.0.4.200610221528
+-   [Stylish](http://userstyles.org/) 1.0.2
+-   [Tab Mix Plus](http://tmp.garyr.net) 0.3.7.4pre.090516
+-   [Tagmarks](http://felipe.wordpress.com/projects/tagmarks) 1.0.1
+-   [Ubiquity](http://wiki.mozilla.org/Labs/Ubiquity) 0.1.8 [disabled]
+-   [Update Notifier](http://www.longfocus.com/firefox/updatenotifier)
+    0.1.5.4
+-   [Web Developer](http://chrispederick.com/work/web-developer/) 1.1.6
+    [disabled]
+-   [wmlbrowser](http://wmlbrowser.mozdev.org) 0.7.20
+
+&lt;/div&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sun, 07 Jun 2009 00:08:00 +1000</pubDate><guid>tag:brucewang.net,2009-06-07:2009/06/180.html</guid><category>addons</category><category>firefox</category><category>shiretoko</category></item><item><title>Twitter被墙，推荐翻墙工具</title><link>https://brucewang.net/2009/06/176.html</link><description>&lt;p&gt;手机访问twitter请用 http://dabr.co.uk (PC也可以用)&lt;br /&gt;
+找翻墙软件可以去 &lt;a href="https://www.sesawe.net/spip.php?lang=zh"&gt;sesawe.net -
+中文&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;因为dabr是开源的PHP软件，自己搭建dabr twitter web 客户端请参考
+&lt;a href="https://twitter.com/scavin"&gt;&lt;a href="https://twitter.com/scavin"&gt;@scavin&lt;/a&gt;&lt;/a&gt; 的 &lt;a href="http://www.appinn.com/twitter-dabr-setup-guide/"&gt;Dabr 安装 - Twitter
+手机版网页程序安装教程 | 小众软件 &gt;
+在线应用&lt;/a&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 02 Jun 2009 18:22:00 +1000</pubDate><guid>tag:brucewang.net,2009-06-02:2009/06/176.html</guid><category>20周年</category><category>gfw</category><category>twitter</category></item><item><title>Git Tips: 获取特定版本的某一文件</title><link>https://brucewang.net/2009/05/173.html</link><description>&lt;p&gt;获取特定版本的某一文件&lt;br /&gt;
+&lt;code&gt;git checkout &amp;lt;revision&amp;gt; &amp;lt;paths&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;例如&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git co 345a7c src/hello.c&lt;/code&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 26 May 2009 23:32:00 +1000</pubDate><guid>tag:brucewang.net,2009-05-26:2009/05/173.html</guid><category>git</category><category>tips</category></item><item><title>在旁边加了个 "6+4 20“的链接</title><link>https://brucewang.net/2009/05/172.html</link><description>&lt;p&gt;在旁边加了个 "6+4 20“的链接&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 19 May 2009 12:11:00 +1000</pubDate><guid>tag:brucewang.net,2009-05-19:2009/05/172.html</guid><category>20周年</category><category>anniversaries</category></item><item><title>把主题换成P2, 可能这个才是适合我的风格 :)</title><link>https://brucewang.net/2009/05/168.html</link><description>&lt;p&gt;把主题换成&lt;a href="http://wordpress.org/extend/themes/p2"&gt;P2&lt;/a&gt;,
+可能这个才是适合我的风格 :)&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 07 May 2009 17:22:00 +1000</pubDate><guid>tag:brucewang.net,2009-05-07:2009/05/168.html</guid><category>p2</category><category>themes</category><category>wordpress</category></item><item><title>Daily Digest for May 7th</title><link>https://brucewang.net/2009/05/171.html</link><description>&lt;p&gt;+--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | /dreamwords"&gt;![twitter (feed                     | &lt;div class="lifestream_label"&gt;       |
+| #3)](http://brucewang.net/wp-conten |                                      |
+| t/plugins/lifestream/images/twitter. | &lt;a href="http://www.twitter.com |
+| png"&gt;&lt;a href="https://twitter.com/dreamwords"&gt;@dreamwords&lt;/a&gt;&lt;/a&gt;&lt;/a&gt;                         |
+| tuses/1718314150)                    | 恭喜喜得贵子！                       |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1718314150"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T09:57:46-07: |
+|                                      | 00" class="lifestream_hour"&gt;9:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | Rails developer. - GitHub founder&amp;quot;   |
+| tuses/1718998635"&gt;&lt;img alt="twitter (feed                     | &amp;lt;div class=&amp;quot;lifestream_label&amp;quot;&amp;gt;       |
+| #3)" src="http://brucewang.net/wp-conten" title="| | | t/plugins/lifestream/images/twitter. | Reading: &amp;quot;how to become a famous | | png" /&gt;&lt;/a&gt;                    | (&lt;a href="http://tinyurl.com/dmsnct"&gt;http://tinyurl.com/dmsnct&lt;/a&gt;) #     |
+|                                      | look at the right side forks XD      |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1718998635"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T11:13:04-07: |
+|                                      | 00" class="lifestream_hour"&gt;11:1&lt;/ab |
+|                                      | br&gt;                                  |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | a"&gt;![twitter (feed                     | &lt;div class="lifestream_label"&gt;       |
+| #3)](http://brucewang.net/wp-conten |                                      |
+| t/plugins/lifestream/images/twitter. | &lt;a href="http://www.twitter.com/miji |
+| png"&gt;&lt;a href="https://twitter.com/mijia"&gt;@mijia&lt;/a&gt;&lt;/a&gt;&lt;/a&gt;                                   |
+| tuses/1722477106)                    | &lt;a href="https://twitter.com/number5/status/ |
+|                                      | 1703231505"&gt;https://twitter.com/number5/status/ |
+|                                      | 1703231505&lt;/a&gt;                          |
+|                                      | 试试这个？                           |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1722477106"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T17:57:50-07: |
+|                                      | 00" class="lifestream_hour"&gt;5:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | o"&gt;![twitter (feed                     | &lt;div class="lifestream_label"&gt;       |
+| #3)](http://brucewang.net/wp-conten |                                      |
+| t/plugins/lifestream/images/twitter. | &lt;a href="http://www.twitter.com/chia |
+| png"&gt;&lt;a href="https://twitter.com/chiao"&gt;@chiao&lt;/a&gt;&lt;/a&gt;&lt;/a&gt;                                   |
+| tuses/1722489374)                    | Happy Birthday!                      |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1722489374"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T17:59:16-07: |
+|                                      | 00" class="lifestream_hour"&gt;5:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta |                                      |
+| tuses/1723270304"&gt;&lt;img alt="twitter (feed                     | &amp;lt;div class=&amp;quot;lifestream_label&amp;quot;&amp;gt;       |
+| #3)" src="http://brucewang.net/wp-conten" title="| | | t/plugins/lifestream/images/twitter. | twitter的通知信变成html带图的了，不好的预兆？ | | png" /&gt;&lt;/a&gt;                    | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1723270304"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T19:26:11-07: |
+|                                      | 00" class="lifestream_hour"&gt;7:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | 中银开平支行两前行长美国被重判&amp;quot;      |
+| tuses/1723311165"&gt;&lt;img alt="twitter (feed                     | &amp;lt;div class=&amp;quot;lifestream_label&amp;quot;&amp;gt;       |
+| #3)" src="http://brucewang.net/wp-conten" title="| | | t/plugins/lifestream/images/twitter. | Reading: &amp;quot;BBC 中文网 | 国际新闻 | | | png" /&gt;&lt;/a&gt;                    | (&lt;a href="http://tinyurl.com/cb5df7"&gt;http://tinyurl.com/cb5df7&lt;/a&gt;)        |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1723311165"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T19:30:49-07: |
+|                                      | 00" class="lifestream_hour"&gt;7:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | angms"&gt;![twitter (feed                     | &lt;div class="lifestream_label"&gt;       |
+| #3)](http://brucewang.net/wp-conten |                                      |
+| t/plugins/lifestream/images/twitter. | &lt;a href="http://www.twitter.com/tz |
+| png"&gt;&lt;a href="https://twitter.com/tzangms"&gt;@tzangms&lt;/a&gt;&lt;/a&gt;&lt;/a&gt;                               |
+| tuses/1723339127)                    | 不会吧，我至少有三四个trac都是这样设置的，好像没什么问题 |
+|                                      |                                      |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1723339127"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T19:34:05-07: |
+|                                      | 00" class="lifestream_hour"&gt;7:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | angms"&gt;![twitter (feed                     | &lt;div class="lifestream_label"&gt;       |
+| #3)](http://brucewang.net/wp-conten |                                      |
+| t/plugins/lifestream/images/twitter. | &lt;a href="http://www.twitter.com/tz |
+| png"&gt;&lt;a href="https://twitter.com/tzangms"&gt;@tzangms&lt;/a&gt;&lt;/a&gt;&lt;/a&gt;                               |
+| tuses/1723439645)                    | 或者改用fastcgi 试试，               |
+|                                      | tracd --protocol=fcgi                |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1723439645"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T19:45:54-07: |
+|                                      | 00" class="lifestream_hour"&gt;7:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | lldng"&gt;![twitter (feed                     | &lt;div class="lifestream_label"&gt;       |
+| #3)](http://brucewang.net/wp-conten |                                      |
+| t/plugins/lifestream/images/twitter. | &lt;a href="http://www.twitter.com/bi |
+| png"&gt;&lt;a href="https://twitter.com/billdng"&gt;@billdng&lt;/a&gt;&lt;/a&gt;&lt;/a&gt;                               |
+| tuses/1723471251)                    | 今天早上才变html的                   |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1723471251"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T19:49:40-07: |
+|                                      | 00" class="lifestream_hour"&gt;7:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | [&lt;a href="https://twitter.com/babechloe"&gt;@babechloe&lt;/a&gt;](http://www.twitter.com/ |
+| tuses/1723702231)                    | babechloe"&gt;&lt;img alt="twitter (feed                     | &amp;lt;div class=&amp;quot;lifestream_label&amp;quot;&amp;gt;       |
+| #3)" src="http://brucewang.net/wp-conten" title="| | | t/plugins/lifestream/images/twitter. | RT | | png" /&gt;&lt;/a&gt;:                          |
+|                                      | &lt;a href="http://www.twitter.com/Ca |
+|                                      | tChen"&gt;&lt;a href="https://twitter.com/CatChen"&gt;@CatChen&lt;/a&gt;&lt;/a&gt;                               |
+|                                      | BINGO!                               |
+|                                      | 不仅是地铁哦，还有道路设计不合理导致不可以穿高跟鞋逛街，肮脏的出租车让人 |
+|                                      | 不敢穿浅色系或者雪纺蕾丝，大风导致不可穿轻薄的短裙，温差巨大到最后必须出 |
+|                                      | 门裹风衣，夏天太热冬天太冷，反正不适合靓女生存啦…… |
+|                                      |                                      |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1723702231"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T20:17:20-07: |
+|                                      | 00" class="lifestream_hour"&gt;8:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | [&lt;a href="https://twitter.com/doubleaf"&gt;@doubleaf&lt;/a&gt;](http://www.twitter.com/d |
+| tuses/1724067336)                    | oubleaf"&gt;&lt;img alt="twitter (feed                     | &amp;lt;div class=&amp;quot;lifestream_label&amp;quot;&amp;gt;       |
+| #3)" src="http://brucewang.net/wp-conten" title="| | | t/plugins/lifestream/images/twitter. | RT | | png" /&gt;&lt;/a&gt;:                            |
+|                                      | 四川省建设厅厅长杨洪波说，经过调查、核实，目前没发现因建筑质量问题造成房 |
+|                                      | 屋在地震中垮塌的案例。&lt;a href="http://news.163.com/09/0 |
+|                                      | 507/11/58N5LV0E000120GU.html"&gt;http://news.163.com/09/0 |
+|                                      | 507/11/58N5LV0E000120GU.html&lt;/a&gt;        |
+|                                      | //睁眼说瞎话已经成为基本技能之一     |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1724067336"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T21:04:08-07: |
+|                                      | 00" class="lifestream_hour"&gt;9:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | 力，雪灾：不可抗力...                |
+| tuses/1724469589"&gt;&lt;img alt="twitter (feed                     | &amp;lt;div class=&amp;quot;lifestream_label&amp;quot;&amp;gt;       |
+| #3)" src="http://brucewang.net/wp-conten" title="| | | t/plugins/lifestream/images/twitter. | 中国是个频繁使用不可抗力的国家，飞机晚点：不可抗力，地震房子倒塌：不可抗 | | png" /&gt;&lt;/a&gt;                    | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1724469589"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T22:02:16-07: |
+|                                      | 00" class="lifestream_hour"&gt;10:1&lt;/ab |
+|                                      | br&gt;                                  |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | [&lt;a href="https://twitter.com/shelisrael"&gt;@shelisrael&lt;/a&gt;](http://www.twitter.com |
+| tuses/1724593477)                    | /shelisrael"&gt;&lt;img alt="twitter (feed                     | &amp;lt;div class=&amp;quot;lifestream_label&amp;quot;&amp;gt;       |
+| #3)" src="http://brucewang.net/wp-conten" title="| | | t/plugins/lifestream/images/twitter. | RT: | | png" /&gt;&lt;/a&gt;                         |
+|                                      | Swineflu fears ebbing. Mexico goes   |
+|                                      | back to work. Biggest victim was     |
+|                                      | Egyptian pigs.                       |
+|                                      | &lt;a href="http://bit.ly/13f7k6"&gt;http://bit.ly/13f7k6&lt;/a&gt;               |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1724593477"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T22:20:39-07: |
+|                                      | 00" class="lifestream_hour"&gt;10:1&lt;/ab |
+|                                      | br&gt;                                  |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | [&lt;a href="https://twitter.com/linglingfa"&gt;@linglingfa&lt;/a&gt;](http://www.twitter.com |
+| tuses/1724833587)                    | /linglingfa"&gt;&lt;img alt="twitter (feed                     | &amp;lt;div class=&amp;quot;lifestream_label&amp;quot;&amp;gt;       |
+| #3)" src="http://brucewang.net/wp-conten" title="| | | t/plugins/lifestream/images/twitter. | RT: | | png" /&gt;&lt;/a&gt;                         |
+|                                      | &lt;a href="http://www.twitter.com/nu |
+|                                      | mber5"&gt;&lt;a href="https://twitter.com/number5"&gt;@number5&lt;/a&gt;&lt;/a&gt;                               |
+|                                      | 中国还是“百年一遇”的灾害最多的国家呢，平均每年都会有至少一次“百年一遇 |
+|                                      | ”的自然灾害。                        |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1724833587"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-06T23:01:47-07: |
+|                                      | 00" class="lifestream_hour"&gt;11:1&lt;/ab |
+|                                      | br&gt;                                  |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | babechloe"&gt;![twitter (feed                     | &lt;div class="lifestream_label"&gt;       |
+| #3)](http://brucewang.net/wp-conten |                                      |
+| t/plugins/lifestream/images/twitter. | &lt;a href="http://www.twitter.com/ |
+| png"&gt;&lt;a href="https://twitter.com/babechloe"&gt;@babechloe&lt;/a&gt;&lt;/a&gt;&lt;/a&gt;                           |
+| tuses/1725222691)                    | 因为猪流媒体报道了很多twitter被收购的谣言 |
+|                                      |                                      |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1725222691"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-07T00:23:38-07: |
+|                                      | 00" class="lifestream_hour"&gt;12:1&lt;/ab |
+|                                      | br&gt;                                  |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | [&lt;a href="https://twitter.com/digitalboy"&gt;@digitalboy&lt;/a&gt;](http://www.twitter.com |
+| tuses/1725237932)                    | /digitalboy"&gt;&lt;img alt="twitter (feed                     | &amp;lt;div class=&amp;quot;lifestream_label&amp;quot;&amp;gt;       |
+| #3)" src="http://brucewang.net/wp-conten" title="| | | t/plugins/lifestream/images/twitter. | RT: | | png" /&gt;&lt;/a&gt;                         |
+|                                      | 推友们：这里有途牛网的推友吗？       |
+|                                      | 我想认识一下啊！                     |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1725237932"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-07T00:27:09-07: |
+|                                      | 00" class="lifestream_hour"&gt;12:1&lt;/ab |
+|                                      | br&gt;                                  |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | pig"&gt;![twitter (feed                     | &lt;div class="lifestream_label"&gt;       |
+| #3)](http://brucewang.net/wp-conten |                                      |
+| t/plugins/lifestream/images/twitter. | &lt;a href="http://www.twitter.com/fly |
+| png"&gt;&lt;a href="https://twitter.com/flypig"&gt;@flypig&lt;/a&gt;&lt;/a&gt;&lt;/a&gt;                                 |
+| tuses/1725514853)                    | 不会的，找个小动画作坊电脑特效就搞定了，奥运脚印都能做，这个太小儿科了 |
+|                                      |                                      |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1725514853"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-07T01:34:12-07: |
+|                                      | 00" class="lifestream_hour"&gt;1:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | angms"&gt;![twitter (feed                     | &lt;div class="lifestream_label"&gt;       |
+| #3)](http://brucewang.net/wp-conten |                                      |
+| t/plugins/lifestream/images/twitter. | &lt;a href="http://www.twitter.com/tz |
+| png"&gt;&lt;a href="https://twitter.com/tzangms"&gt;@tzangms&lt;/a&gt;&lt;/a&gt;&lt;/a&gt;                               |
+| tuses/1725543405)                    | 默认的有什么问题? 推荐plugin有       |
+|                                      | AccountManager/AuthRequired          |
+|                                      | &lt;a href="http://trac-hacks.org"&gt;http://trac-hacks.org&lt;/a&gt;              |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1725543405"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-07T01:41:27-07: |
+|                                      | 00" class="lifestream_hour"&gt;1:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://brucewang.net/2009/05/07/ |
+|                                      | 168"&gt;&lt;img alt="blog (feed                        | &amp;lt;div class=&amp;quot;lifestream_label&amp;quot;&amp;gt;       |
+| #1)" src="http://brucewang.net/wp-conten" title="| | | t/plugins/lifestream/images/blog.png | Published 把主题换成P2,             |
+| ) | :" /&gt;&lt;/a&gt;                                 |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-07T02:22:23-07: |
+|                                      | 00" class="lifestream_hour"&gt;2:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://brucewang.net |
+|                                      |"&gt;brucewang.net&lt;/a&gt;&lt;/span&gt;                             |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | 假扮一下twitter XD                   |
+| tuses/1725723499"&gt;&lt;img alt="twitter (feed                     | &amp;lt;div class=&amp;quot;lifestream_label&amp;quot;&amp;gt;       |
+| #3)" src="http://brucewang.net/wp-conten" title="| | | t/plugins/lifestream/images/twitter. | 把 blog的theme换成p2了， | | png" /&gt;&lt;/a&gt;                    | &lt;a href="http://wordpress.org/extend/themes/ |
+|                                      | p2"&gt;http://wordpress.org/extend/themes/ |
+|                                      | p2&lt;/a&gt;                                  |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1725723499"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-07T02:28:00-07: |
+|                                      | 00" class="lifestream_hour"&gt;2:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | archliu"&gt;![twitter (feed                     | &lt;div class="lifestream_label"&gt;       |
+| #3)](http://brucewang.net/wp-conten |                                      |
+| t/plugins/lifestream/images/twitter. | &lt;a href="http://www.twitter.com/m |
+| png"&gt;&lt;a href="https://twitter.com/marchliu"&gt;@marchliu&lt;/a&gt;&lt;/a&gt;&lt;/a&gt;                             |
+| tuses/1725732509)                    | 升级virtualbox到2.2.2吧              |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1725732509"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-07T02:30:19-07: |
+|                                      | 00" class="lifestream_hour"&gt;2:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | awflasher"&gt;![twitter (feed                     | &lt;div class="lifestream_label"&gt;       |
+| #3)](http://brucewang.net/wp-conten |                                      |
+| t/plugins/lifestream/images/twitter. | &lt;a href="http://www.twitter.com/ |
+| png"&gt;&lt;a href="https://twitter.com/awflasher"&gt;@awflasher&lt;/a&gt;&lt;/a&gt;&lt;/a&gt;                           |
+| tuses/1725812276)                    | 看你要拿来干嘛？                     |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1725812276"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-07T02:50:34-07: |
+|                                      | 00" class="lifestream_hour"&gt;2:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| [&lt;img alt="twitter (feed                     | &amp;lt;div class=&amp;quot;lifestream_label&amp;quot;&amp;gt;       |
+| #3)" src="http://brucewang.net/wp-conten" title="| | | t/plugins/lifestream/images/twitter. | [blog] 把主题换成P2, | | png" /&gt;](http://twitter.com/number5/sta | 可能这个才是适合我的风格 :)          |
+| tuses/1725820941)                    | &lt;a href="http://tinyurl.com/djvfb6"&gt;http://tinyurl.com/djvfb6&lt;/a&gt;          |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1725820941"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-07T02:52:50-07: |
+|                                      | 00" class="lifestream_hour"&gt;2:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+
+| &lt;a href="http://twitter.com/number5/sta | archliu"&gt;![twitter (feed                     | &lt;div class="lifestream_label"&gt;       |
+| #3)](http://brucewang.net/wp-conten |                                      |
+| t/plugins/lifestream/images/twitter. | &lt;a href="http://www.twitter.com/m |
+| png"&gt;&lt;a href="https://twitter.com/marchliu"&gt;@marchliu&lt;/a&gt;&lt;/a&gt;&lt;/a&gt;                             |
+| tuses/1725821690)                    | 这个问题我回答不了，我只是拿他在Gentoo里面装WinXP |
+|                                      |                                      |
+|                                      | [&lt;a href="http://twitter.com/number5/sta |
+|                                      | tuses/1725821690"&gt;#&lt;/a&gt;]                   |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
+|                                      |                                      |
+|                                      | &lt;div class="lifestream_meta"&gt;        |
+|                                      |                                      |
+|                                      | —                                    |
+|                                      | &lt;abbr title="2009-05-07T02:53:01-07: |
+|                                      | 00" class="lifestream_hour"&gt;2:1&lt;/abb |
+|                                      | r&gt;                                   |
+|                                      | &lt;span class="lifestream_via"&gt;via     |
+|                                      | &lt;a href="http://www.twitter.com/num |
+|                                      | ber5"&gt;twitter&lt;/a&gt;&lt;/span&gt;                         |
+|                                      |                                      |
+|                                      | &lt;/div&gt;                               |
++--------------------------------------+--------------------------------------+&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 07 May 2009 03:31:00 +1000</pubDate><guid>tag:brucewang.net,2009-05-07:2009/05/171.html</guid></item><item><title>Inbox (88888)</title><link>https://brucewang.net/2009/05/165.html</link><description>&lt;p&gt;&lt;img alt="Inbox 88888
+Unread" src="http://brucewang.net/wp-content/uploads/2009/05/inbox_88888_gmail.png" title="Inbox 88888 Unread" /&gt;&lt;/p&gt;
+&lt;p&gt;XD&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Fri, 01 May 2009 20:31:00 +1000</pubDate><guid>tag:brucewang.net,2009-05-01:2009/05/165.html</guid><category>gmail</category></item><item><title>Google Apps 用户可以使用Google App Engine的应用了</title><link>https://brucewang.net/2009/01/157.html</link><description>&lt;p&gt;&lt;img alt="google-apps_gae" src="http://brucewang.net/wp-content/uploads/2009/01/google-apps_gae.png" title="google-apps_gae" /&gt;&lt;br /&gt;
+如图所示，在你的google apps dashboard上面选择add more
+services就会见到，appengine果然是Google
+SaaS服务应用中的一环，下一步应该就会见到收费的gae app了吧&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Wed, 21 Jan 2009 17:30:00 +1100</pubDate><guid>tag:brucewang.net,2009-01-21:2009/01/157.html</guid><category>appengine</category><category>ecosystem</category><category>google</category><category>google-apps</category><category>SaaS</category></item><item><title>[tips] Rsync via SSH with non-standard port</title><link>https://brucewang.net/2009/01/151.html</link><description>&lt;p&gt;just noted down here in case I forgot later :P&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;rsync -avze "ssh -p 22222 -ax" host1:/SOURCE/DIR  /TARGET/DIR&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Bonus: &lt;a href="http://sial.org/howto/rsync/"&gt;Rsync tips and tricks&lt;/a&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 03 Jan 2009 15:36:00 +1100</pubDate><guid>tag:brucewang.net,2009-01-03:2009/01/151.html</guid><category>rsync</category><category>snippet</category><category>ssh</category><category>tips</category></item><item><title>［转载］26字母歌</title><link>https://brucewang.net/2008/12/148.html</link><description>&lt;p&gt;在&lt;a href="http://family.mblogger.cn/berlinf/"&gt;黑三角&lt;/a&gt;看到的
+&lt;a href="http://family.mblogger.cn/berlinf/posts/146060.aspx"&gt;26个字母歌&lt;/a&gt;，
+觉得很有意思就抄过来，好以后温习。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt; color: #943634;"&gt;A&lt;/span&gt;&lt;/strong&gt;&lt;span
+style="font-size: 12pt; color: #943634;"&gt;&lt;span
+style="font-family: Calibri;"&gt;ccept differences. &lt;strong&gt;&lt;span&gt;B&lt;/span&gt;&lt;/strong&gt;e
+kind. &lt;strong&gt;&lt;span&gt;C&lt;/span&gt;&lt;/strong&gt;ount your blessings.
+&lt;strong&gt;&lt;span&gt;D&lt;/span&gt;&lt;/strong&gt;ream.&lt;span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span&gt;E&lt;/span&gt;&lt;/strong&gt;xpress thanks.
+&lt;strong&gt;&lt;span&gt;F&lt;/span&gt;&lt;/strong&gt;orgive. &lt;strong&gt;&lt;span&gt;G&lt;/span&gt;&lt;/strong&gt;ive freely&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 12pt; color: #943634;"&gt;H&lt;/span&gt;&lt;/strong&gt;&lt;span
+style="font-size: 12pt; color: #943634;"&gt;&lt;span
+style="font-family: Calibri;"&gt;arm no
+one.&lt;span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span&gt;I&lt;/span&gt;&lt;/strong&gt;magine more.
+&lt;strong&gt;&lt;span&gt;J&lt;/span&gt;&lt;/strong&gt;ettison anger. &lt;strong&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;K&lt;/span&gt;&lt;/strong&gt;eep
+confidence.&lt;span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span&gt;L&lt;/span&gt;&lt;/strong&gt;ove truly.
+&lt;strong&gt;&lt;span&gt;M&lt;/span&gt;&lt;/strong&gt;aster something. &lt;strong&gt;&lt;span&gt;N&lt;/span&gt;&lt;/strong&gt;urture
+hope&lt;strong&gt;&lt;span style="font-weight: normal;"&gt;.&lt;/span&gt;&lt;span&gt;O&lt;/span&gt;&lt;/strong&gt;pen
+your mind. &lt;strong&gt;&lt;span&gt;P&lt;/span&gt;&lt;/strong&gt;ack
+lightly.&lt;span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span&gt;Q&lt;/span&gt;&lt;/strong&gt;uell rumors.
+&lt;strong&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;R&lt;/span&gt;&lt;/strong&gt;eciprocate.&lt;span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span&gt;S&lt;/span&gt;&lt;/strong&gt;eek
+wisdom. &lt;strong&gt;&lt;span&gt;T&lt;/span&gt;&lt;/strong&gt;ouch hearts. &lt;strong&gt;&lt;span&gt;U&lt;/span&gt;&lt;/strong&gt;nderstand.
+&lt;strong&gt;&lt;span&gt;V&lt;/span&gt;&lt;/strong&gt;alue truth.&lt;span&gt;&lt;/span&gt;&lt;strong&gt;&lt;span&gt;W&lt;/span&gt;&lt;/strong&gt;in
+graciously. &lt;strong&gt;X&lt;/strong&gt;eriscape. &lt;strong&gt;&lt;span&gt;Y&lt;/span&gt;&lt;/strong&gt;earn for peace.
+&lt;strong&gt;&lt;span&gt;Z&lt;/span&gt;&lt;/strong&gt;ealously support a worthy cause.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+style="font-size: 12pt; color: black; font-family: SimSun;"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Mon, 29 Dec 2008 14:17:00 +1100</pubDate><guid>tag:brucewang.net,2008-12-29:2008/12/148.html</guid><category>alphaphet</category><category>attitude</category><category>Life</category></item><item><title>Install gitweb using Nginx fastcgi</title><link>https://brucewang.net/2008/10/147.html</link><description>&lt;p&gt;&lt;a href="http://git.or.cz/gitwiki/Gitweb"&gt;gitweb&lt;/a&gt; 是cgi,
+&lt;a href="http://wiki.codemongers.com/Main" title="powerful lightweight httpd server"&gt;Nginx&lt;/a&gt;
+只支持FastCGI, 所以需要加个wrapper&lt;/p&gt;
+&lt;p&gt;下面是网上搜回来的资料，放在这里备忘：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://forum.slicehost.com/comments.php?DiscussionID=1144"&gt;Slicehost Forum - Nginx +
+SCM&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://code.cactuswax.net/git/?p=gitweb.git"&gt;cactuswax.net gitweb helper scripts&lt;br /&gt;
+&lt;/a&gt;&lt;a href="http://wiki.codemongers.com/NginxSimpleCGI"&gt;NginxSimpleCGI&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;等晚上做好了再回来报告&lt;/h2&gt;
+&lt;p&gt;装好了，很顺利&lt;br /&gt;
+不过后来发现有个 &lt;a href="http://pypi.python.org/pypi/gitserve/0.2.0"&gt;gitserve&lt;/a&gt;
+更简单，用python 做的http server
+包在gitweb.cgi外面，用起来感觉和&lt;code&gt;hg serve&lt;/code&gt;一样方便了 :)&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Wed, 22 Oct 2008 12:56:00 +1100</pubDate><guid>tag:brucewang.net,2008-10-22:2008/10/147.html</guid><category>fastcgi</category><category>git</category><category>gitserve</category><category>gitweb</category><category>nginx</category></item><item><title>关于 02968669026 这个spam 电话</title><link>https://brucewang.net/2008/10/145.html</link><description>&lt;p&gt;&lt;em&gt;02968669026&lt;/em&gt; 这个spam电话，谁打长途不用钱有不怕被反骚扰的多打打这个电话&lt;/p&gt;
+&lt;p&gt;百度过来的朋友，你们如果用Google搜索就会有&lt;a href="http://www.google.com/search?q=02968669026"&gt;更多结果&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上面这个电话是西安的，专门打骚扰电话到手机的（就是响一下或者不响就收线那种)&lt;/p&gt;
+&lt;p&gt;祝愿 02968669026 的主人断子绝孙，天天晚上被电话骚扰！&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Mon, 06 Oct 2008 13:12:00 +1100</pubDate><guid>tag:brucewang.net,2008-10-06:2008/10/145.html</guid><category>phone</category><category>spammer</category></item><item><title>把sidebar中的categories去掉</title><link>https://brucewang.net/2008/10/144.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 04 Oct 2008 14:54:00 +1000</pubDate><guid>tag:brucewang.net,2008-10-04:2008/10/144.html</guid></item><item><title>升级WP-OpenID plugin 到3.0, 改用新的主题 Fauna</title><link>https://brucewang.net/2008/10/143.html</link><description>&lt;p&gt;今天将&lt;a href="http://wordpress.org/extend/plugins/openid"&gt;WP-OpenID&lt;/a&gt;插件升级到3.0，
+现在支持OpenID Server模式了，就是说装了这个插件就可以直接用你的blog
+url作为openid url。 OpenID Server
+模式需要另外安装一个&lt;a href="http://wordpress.org/extend/plugins/xrds-simple/"&gt;XRDS-Simple&lt;/a&gt;插件&lt;/p&gt;
+&lt;p&gt;另外，原来&lt;a href="http://web2wptheme.com"&gt;Web2.0&lt;/a&gt;主题用得烦了，ajax
+comment和openid
+插件的冲突一直也解决不了，干脆就换一个&lt;a href="http://www.noscope.com/fauna/"&gt;Fauna&lt;/a&gt;主题，感觉还不错，细节慢慢调吧。&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 04 Oct 2008 14:52:00 +1000</pubDate><guid>tag:brucewang.net,2008-10-04:2008/10/143.html</guid><category>fauna</category><category>openid</category><category>plugins</category><category>themes</category><category>wordpress</category></item><item><title>twitter上following 363， followers 696 截个图纪念一下</title><link>https://brucewang.net/2008/09/139.html</link><description>&lt;p&gt;&lt;img alt="363
+696" src="http://brucewang.net/wp-content/uploads/2008/09/363696.png" title="363696" /&gt;&lt;/p&gt;
+&lt;p&gt;Georgia字体很不错啊，看起来很对称 :)&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Fri, 26 Sep 2008 17:05:00 +1000</pubDate><guid>tag:brucewang.net,2008-09-26:2008/09/139.html</guid><category>screenshot</category><category>twitter</category></item><item><title>正在使用的Firefox插件列表</title><link>https://brucewang.net/2008/09/138.html</link><description>&lt;p&gt;借&lt;a href="http://www.google.com/chrome"&gt;Google
+Chrome&lt;/a&gt;发布的东风，show一下我的Firefox插件列表
+(粗体的代表强烈推荐）&lt;br /&gt;
+&lt;base target="_blank"&gt;&lt;br /&gt;
+&lt;span class="GeneratedHeader"&gt;Generated:&lt;/span&gt; Wed Sep 03 2008
+10:44:16 GMT+0800 (CST)  &lt;/p&gt;
+&lt;p&gt;&lt;span class="UserAgentHeader"&gt;User Agent:&lt;/span&gt; Mozilla/5.0 (X11; U;
+Linux i686; en-US; rv:1.9.1b1pre) Gecko/20080831020404
+Minefield/3.1b1pre  &lt;/p&gt;
+&lt;p&gt;&lt;span class="BuildIDHeader"&gt;Build ID:&lt;/span&gt; 20080831020404  &lt;/p&gt;
+&lt;p&gt;&lt;span class="ExtensionHeader"&gt;Enabled Extensions:&lt;/span&gt; [29]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.google.com/search?q=Minefield%20Abduction%21"&gt;Abduction!&lt;/a&gt;
+    2.026&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://adblockplus.org/"&gt;&lt;strong&gt;Adblock Plus&lt;/strong&gt;&lt;/a&gt; 0.7.5.5&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://adblockplus.org/" target="_blank"&gt;&lt;strong&gt;Adblock Plus:
+    Element Hiding Helper&lt;/a&gt; 1.0.5&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ginatrapani.org/workshop/firefox/bettergreader/"&gt;Better
+    GReader&lt;/a&gt; 0.4&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.google.com/search?q=Minefield%20Configuration%20Mania"&gt;Configuration
+    Mania&lt;/a&gt;
+    1.09.2008081401&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.cutemenuproject.com/"&gt;CuteMenus - Crystal SVG&lt;/a&gt; 1.9.3&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://delicious.com"&gt;Delicious Bookmarks&lt;/a&gt; 2.0.95&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://downthemall.net/"&gt;&lt;strong&gt;DownThemAll!&lt;/strong&gt;&lt;/a&gt; 1.0.3&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.getfirebug.com/"&gt;&lt;strong&gt;Firebug&lt;/strong&gt;&lt;/a&gt; 1.2.0&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.janodvarko.cz/firecookie"&gt;Firecookie&lt;/a&gt; 0.6&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.firephp.org/"&gt;FirePHP&lt;/a&gt; 0.1.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://foxyproxy.mozdev.org"&gt;FoxyProxy&lt;/a&gt; 2.8.4&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.greasespot.net/"&gt;Greasemonkey&lt;/a&gt; 0.8.20080609.0&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.google.com/search?q=Minefield%20Live%20HTTP%20headers"&gt;Live HTTP
+    headers&lt;/a&gt;
+    0.14&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.informatik.uni-oldenburg.de/~dyna/mldonkey/"&gt;MLdonkey Protocol
+    Handler&lt;/a&gt; 2.2&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.mrtech.com/extensions/"&gt;MR Tech Toolkit (formerly Local
+    Install)&lt;/a&gt; 6.0.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.oxymoronical.com/web/firefox/nightly"&gt;Nightly Tester
+    Tools&lt;/a&gt; 2.0.2&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://noscript.net"&gt;&lt;strong&gt;NoScript&lt;/strong&gt;&lt;/a&gt; 1.8&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.pixelperfectplugin.com/"&gt;Pixel Perfect&lt;/a&gt; 0.5.6&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.rememberthemilk.com/services/gmail/"&gt;Remember The Milk for
+    Gmail&lt;/a&gt; 1.0.3&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://amb.vis.ne.jp/mozilla/scrapbook/"&gt;ScrapBook&lt;/a&gt; 1.3.3.7&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://signature.mozdev.org/"&gt;Signature&lt;/a&gt; 0.4.0.4.200610221528&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://userstyles.org/stylish/"&gt;Stylish&lt;/a&gt; 0.5.7&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://tmp.garyr.net"&gt;&lt;strong&gt;Tab Mix Plus&lt;/strong&gt;&lt;/a&gt; 0.3.7pre.080830&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://felipe.wordpress.com/projects/tagmarks"&gt;Tagmarks&lt;/a&gt; 1.0.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://wiki.mozilla.org/Labs/Ubiquity"&gt;&lt;strong&gt;Ubiquity&lt;/strong&gt;&lt;/a&gt; 0.1.1&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.longfocus.com/firefox/updatenotifier"&gt;Update Notifier&lt;/a&gt;
+    0.1.5.4&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://chrispederick.com/work/web-developer/"&gt;Web Developer&lt;/a&gt; 1.1.6&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://developer.yahoo.com/yslow"&gt;YSlow&lt;/a&gt; 0.9.5b2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class="ThemeHeader"&gt;Installed Themes:&lt;/span&gt; [3]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="http://www.mozilla.org/"&gt;Default&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://webdesigns.ms11.net/winstripethemes.html"&gt;Linstripe Modern&lt;/a&gt;
+    3.2&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.blogmanno.com"&gt;Ubuntu Tango Theme&lt;/a&gt; 2.0.4&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class="PluginHeader"&gt;Installed Plugins:&lt;/span&gt; (9)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Default Plugin&lt;/li&gt;
+&lt;li&gt;DivX Browser Plug-In&lt;/li&gt;
+&lt;li&gt;Java(TM) Plug-in 1.6.0_07-b06&lt;/li&gt;
+&lt;li&gt;mplayerplug-in 3.55&lt;/li&gt;
+&lt;li&gt;OpenOffice.org Plug-in&lt;/li&gt;
+&lt;li&gt;QuickTime Plug-in 7.4.5&lt;/li&gt;
+&lt;li&gt;RealPlayer 9&lt;/li&gt;
+&lt;li&gt;Shockwave Flash&lt;/li&gt;
+&lt;li&gt;Windows Media Player Plug-in&lt;/li&gt;
+&lt;/ul&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Wed, 03 Sep 2008 10:53:00 +1000</pubDate><guid>tag:brucewang.net,2008-09-03:2008/09/138.html</guid><category>firefox</category><category>plugins</category></item><item><title>获取Twitter Replies的简易方法</title><link>https://brucewang.net/2008/06/137.html</link><description>&lt;p&gt;近日twitter 看replies功能不能用，但是twitter api还是好的，
+所以试着用python-twitter来看replies, 效果不错,
+不知道python是什么的同学请忽略此帖&lt;/p&gt;
+&lt;p&gt;首先安装&lt;a href="http://code.google.com/p/python-twitter/"&gt;python-twitter&lt;/a&gt;,
+最方便的做法可能是用easy_install&lt;br /&gt;
+&lt;code&gt;easy_install python-twitter&lt;/code&gt;&lt;br /&gt;
+下面是代码&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;{.python name="code"}
+import twitter
+def getTwitterReplies():
+     api = twitter.Api(username='twitter用户名', password='twitter密码')
+     replies = api.GetReplies()
+     replies.reverse()
+     for item in replies:
+          print item.user.screen_name, ': ', item.text&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;我是放在&lt;a href="http://ipython.scipy.org/"&gt;ipython&lt;/a&gt;当中，直接输函数名就可以看到结果了&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 26 Jun 2008 16:22:00 +1000</pubDate><guid>tag:brucewang.net,2008-06-26:2008/06/137.html</guid><category>code</category><category>python</category><category>twitter</category></item><item><title>昨天去drupalcamp shanghai的收获</title><link>https://brucewang.net/2008/05/136.html</link><description>&lt;p&gt;发现了三个挺有用的模块：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="http://drupal.org/project/coder" title="Coder Module"&gt;coder&lt;/a&gt;
+    检查代码质量，是否符合drupal规范还有进行code review的模块&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://drupal.org/project/i18n" title="drupal internationalization modules"&gt;i18n&lt;/a&gt;
+    这个实际上不是&lt;em&gt;一个&lt;/em&gt;模块，而是一组模块，用来进行drupal站点的多语言开发，包括内容和界面，非常有用，自动化程度相当高&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://drupal.org/project/services" title="drupal services api module"&gt;services&lt;/a&gt;
+    这个模块可以为大部分的drupal功能提供web api支持,
+    在这个基础上开发自己的web api简直是易如反掌。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;更多关于drupalcamp 上海的报道，可以看 他们的官方网站:
+&lt;a href="http://drupalcampshanghai.org/%20"&gt;http://drupalcampshanghai.org/&lt;/a&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Mon, 19 May 2008 13:56:00 +1000</pubDate><guid>tag:brucewang.net,2008-05-19:2008/05/136.html</guid><category>drupal</category><category>drupalcamp</category><category>i18n</category><category>shanghai</category><category>webapi</category></item><item><title>［响应POPOEVER] 生命的价值并不止于自己的幸福，大家齐行动，挂个 banner 援助地震灾区！</title><link>https://brucewang.net/2008/05/135.html</link><description>&lt;p&gt;&lt;img alt="Donate to Earthquake
+refugees" src="http://brucewang.net/wp-content/uploads/2008/05/donate_to_redcross_728x230_w.png" title="donate_to_redcross_728x230_w" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://plod.popoever.com/archives/001372.html"&gt;生命的价值并不止于自己的幸福&lt;/a&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 15 May 2008 14:45:00 +1000</pubDate><guid>tag:brucewang.net,2008-05-15:2008/05/135.html</guid><category>donation</category><category>earthquake</category><category>Life</category><category>redcross</category></item><item><title>在Mac OS X下使用ffmpeg将mpeg转换成mp3</title><link>https://brucewang.net/2008/05/133.html</link><description>&lt;p&gt;五一假期期间受LD之命要将几个mpeg文件转换成mp3,
+试了一大轮freeware/shareware/open
+source软件之后发现&lt;a href="http://ffmpeg.mplayerhq.hu/"&gt;ffmpeg&lt;/a&gt;最简单，命令行一行搞定：&lt;br /&gt;
+&lt;code&gt;ffmpeg -i video1.mpeg  video1.mp3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;因为是在Mac OS
+X下（LD的MacBook)安装ffmpeg有点麻烦，如果没装&lt;a href="http://www.macports.org/"&gt;MacPorts&lt;/a&gt;可以采用先安装&lt;a href="http://www.versiontracker.com/dyn/moreinfo/macosx/15473"&gt;ffmpegX&lt;/a&gt;的“曲线救国”方式,
+安装完之后可以在&lt;code&gt;/Applications/ffmpegX.app/Contents/Resources/ffmpeg&lt;/code&gt;找到ffmpeg命令&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sun, 04 May 2008 22:51:00 +1000</pubDate><guid>tag:brucewang.net,2008-05-04:2008/05/133.html</guid><category>ffmpeg</category><category>macosx</category><category>mp3</category><category>mpeg</category></item><item><title>Google App Engine 发布</title><link>https://brucewang.net/2008/04/131.html</link><description>&lt;p&gt;&lt;a href="http://code.google.com/appengine" title="Google App Engine"&gt;Google App
+Engine&lt;/a&gt;
+北京时间今天正午发布，preview accounts(1万个）几分钟就被抢光了&lt;img alt="the
+powerful
+engine!" src="http://code.google.com/appengine/images/appengine_lowres.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;简单来说是一个&lt;a href="http://www.python.org" title="Python编程语言"&gt;python&lt;/a&gt;应用hosting
+环境，GvR说了迟点会加入其他语言的支持&lt;/p&gt;
+&lt;p&gt;有兴趣的人可以先下载&lt;a href="http://code.google.com/appengine/downloads.html" title="Google App Engine SDK"&gt;SDK&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;相关报道：  &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://radar.oreilly.com/archives/2008/04/app-engine-host-your-python-apps-with-google.html"&gt;http://radar.oreilly.com/archives/2008/04/app-engine-host-your-python-apps-with-google.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.techcrunch.com/2008/04/07/google-jumps-head-first-into-web-services-with-google-app-engine/"&gt;http://www.techcrunch.com/2008/04/07/google-jumps-head-first-into-web-services-with-google-app-engine/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;：1点多的时候拿到了我的Google App Engine Account  :)&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 08 Apr 2008 12:45:00 +1000</pubDate><guid>tag:brucewang.net,2008-04-08:2008/04/131.html</guid><category>appengine</category><category>google</category><category>python</category><category>utility</category><category>web service</category></item><item><title>升级到Wordpress 2.5</title><link>https://brucewang.net/2008/04/130.html</link><description>&lt;p&gt;用&lt;a href="http://www.dreamhost.com"&gt;dreamhost.com&lt;/a&gt;的一键升级完成的，很方便&lt;/p&gt;
+&lt;p&gt;到目前为止没有看到有什么问题&lt;/p&gt;
+&lt;p&gt;惊喜的发现，居然有plugin自动升级功能了&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Fri, 04 Apr 2008 16:55:00 +1100</pubDate><guid>tag:brucewang.net,2008-04-04:2008/04/130.html</guid><category>blog</category><category>dreamhost</category><category>upgrade</category><category>wordpress</category></item><item><title>scim for skype(或者其他QT程序)的配置方法 (不需要scim-bridge或者scim-qtimm)</title><link>https://brucewang.net/2008/03/129.html</link><description>&lt;p&gt;装好scim 1.4.7 之后 在 xinitrc中加入下面内容  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# scim setup export LANG="zh_CN.UTF-8" export XMODIFIERS=&lt;a href="https://twitter.com/im"&gt;@im&lt;/a&gt;=SCIM export XIM="scim" export XINPUT="xim" export XIM_PROGRAM="scim -d" export GTK_IM_MODULE=scim export QT_IM_MODULE=scim scim -d &amp;amp;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;我用的是xfce4, xinitrc的位置在 \~/.config/xfce4/xinitrc&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 我现在已经放弃scim全面转向使用
+&lt;a href="http://code.google.com/p/ibus/" title="Intelligent Input Bus for Linux / Unix OS"&gt;ibus&lt;/a&gt;
+/ibus-pinyin了&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 04 Mar 2008 17:46:00 +1100</pubDate><guid>tag:brucewang.net,2008-03-04:2008/03/129.html</guid><category>linux</category><category>qt</category><category>scim</category><category>skype</category><category>中文输入</category></item><item><title>古怪的Linux下的声卡问题</title><link>https://brucewang.net/2007/12/127.html</link><description>&lt;p&gt;系统是 Archlinux, kernel 2.6.23-ARCH&lt;br /&gt;
+声卡是 ICH6 T43主板集成的，snd_intel8x0驱动，禁用了snd_intel8x0m驱动&lt;/p&gt;
+&lt;p&gt;经常会在播放音乐中间出错，下面有dmesg的log, 重启之后又没事了&lt;br /&gt;
+尝试过开启 snd_intel8x0的buggy_irq选项，但是会导致Synaptics
+Touchpad的另外一个bug （全部输入无效，看上去和死机一样)&lt;/p&gt;
+&lt;p&gt;哪位Linux达人教教我怎么解决？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;irq 18: nobody cared (try booting with the &amp;quot;irqpoll&amp;quot; option)
+[] __report_bad_irq+0x24/0x80
+[] note_interrupt+0x28b/0x2d0
+[] handle_IRQ_event+0x30/0x60
+[] handle_fasteoi_irq+0x87/0xe0
+[] do_IRQ+0x3b/0x70
+[] do_IRQ+0x40/0x70
+[] common_interrupt+0x23/0x28
+[] acpi_pm_read+0x7/0x10
+[] getnstimeofday+0x34/0xf0
+[] ktime_get_ts+0x1e/0x60
+[] ktime_get+0x18/0x40
+[] tick_nohz_restart_sched_tick+0x2e/0x140
+[] cpu_idle+0x86/0xe0
+[] start_kernel+0x30a/0x3a0
+[] unknown_bootoption+0x0/0x1f0
+=======================
+handlers:
+[] (snd_intel8x0_interrupt+0x0/0x240 [snd_intel8x0])
+Disabling IRQ #18
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 换了个zen source的kernel
+（&lt;a href="http://aur.archlinux.org/packages.php?do_Details=1&amp;amp;ID=13900"&gt;kernel26zen-git&lt;/a&gt;)
+就解决了&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 13 Dec 2007 14:56:00 +1100</pubDate><guid>tag:brucewang.net,2007-12-13:2007/12/127.html</guid><category>alsa</category><category>linux</category><category>snd_intel8x0</category><category>soundcard</category><category>t43</category></item><item><title>神奇啊，Wordpress OpenID plugin 终于在dreamhost上工作了</title><link>https://brucewang.net/2007/12/126.html</link><description>&lt;p&gt;&lt;a href="http://http://wordpress.org/extend/plugins/openid" title="wordpress openid plugin"&gt;wp-openid&lt;/a&gt;升级到2.1.2
+然后重新启用自己编译的php5 fastcgi,  这次居然成功了！&lt;/p&gt;
+&lt;p&gt;也好，可以继续在dreamhost呆着，不用搬家了&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Mon, 10 Dec 2007 20:12:00 +1100</pubDate><guid>tag:brucewang.net,2007-12-10:2007/12/126.html</guid><category>dreamhost</category><category>fastcgi</category><category>openid</category><category>php5</category><category>wordpress</category></item><item><title>Midori - A webkit based browser for Gnome</title><link>https://brucewang.net/2007/12/125.html</link><description>&lt;p&gt;&lt;a href="http://www.footbig.com/photo/9614"&gt;&lt;img alt="" src="http://fleet1.footbig.com/390/m/6d/f0/6df083f8e7ade3fd8a3fb70f23d66de6-8431.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://software.twotoasts.de/?page=midori"&gt;Midori&lt;/a&gt; 基于webkitgtk,
+还处于alpha阶段，javascript支持还有问题，但是从渲染效果和浏览速度来看已经很不错了&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 08 Dec 2007 02:30:00 +1100</pubDate><guid>tag:brucewang.net,2007-12-08:2007/12/125.html</guid><category>browser</category><category>gnome</category><category>gtk</category><category>midori</category><category>webkit</category></item><item><title>让scim支持skype (Archlinux)</title><link>https://brucewang.net/2007/12/124.html</link><description>&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;:  不需要scim-qtimm或者scim-bridge也可以支持skype(qt), 
+&lt;a href="http://brucewang.net/2008/03/04/129"&gt;具体配置见这里&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;关键的问题在于编译一个&lt;a href="http://www.scim-im.org/projects/scim_qtimm"&gt;scim-qtimm&lt;/a&gt;的模块(Ubuntu上也是用这个方案），似乎很久都没有人维护了，只有cvs版本才支持qt4，
+鉴于我的skype 2.0.0.13 beta已经是动态链接到qt4的，所以决定用cvs版本。&lt;/p&gt;
+&lt;p&gt;好在Archlinux为自己建package提供了非常方便的工具 makepkg/PKGBUILD
+系统，在认真了解scons这个python
+make工具以及被人遗忘的bksys系统之后，终于让我build成功并安装了。&lt;/p&gt;
+&lt;p&gt;配置参考&lt;a href="http://www.scim-im.org/wiki/documentation/installation_and_configuration/all/system_configuration" title="SCIM Configuration"&gt;scim官方文档&lt;/a&gt;,
+其实也挺简单的，在 \~/.xinitrc里面加上这三行就行  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;export XMODIFIERS=&lt;a href="https://twitter.com/im"&gt;@im&lt;/a&gt;=SCIM    #case matters for this variable! export GTK_IM_MODULE=scim export QT_IM_MODULE=scim&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;附件是我写的&lt;a href="http://brucewang.net/wp-content/uploads/2007/12/pkgbuild" title="scim-qtimm-cvs PKGBUILD"&gt;scim-qtimm-cvs
+PKGBUILD&lt;/a&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 08 Dec 2007 01:59:00 +1100</pubDate><guid>tag:brucewang.net,2007-12-08:2007/12/124.html</guid><category>archlinux</category><category>aur</category><category>scim</category><category>scim-qtimm</category><category>skype</category></item><item><title>Twitter Tools 很久没有帮我自动每日总结了</title><link>https://brucewang.net/2007/12/122.html</link><description>&lt;p&gt;要找个时间修理一下它&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 08 Dec 2007 01:15:00 +1100</pubDate><guid>tag:brucewang.net,2007-12-08:2007/12/122.html</guid><category>plugins</category><category>twitter</category></item><item><title>在Firefox/Minefield 3.0b2pre中启用所有插件(Addons)</title><link>https://brucewang.net/2007/12/121.html</link><description>&lt;p&gt;装上&lt;a href="http://www.oxymoronical.com/web/firefox/nightly" title="NTT"&gt;Nightly Tester
+Tools&lt;/a&gt;，到Addons选项窗口点Mark
+All As Compatible就可以了&lt;/p&gt;
+&lt;p&gt;我目前浏览器的ID Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9b2pre)
+Gecko/2007120404 Minefield/3.0b2pre ID:2007120404&lt;/p&gt;
+&lt;p&gt;Addons列表&lt;/p&gt;
+&lt;p&gt;Adblock Plus 0.7.5.3&lt;br /&gt;
+CuteMenus - Crystal SVG 1.9.1&lt;br /&gt;
+del.icio.us 1.2.1&lt;br /&gt;
+DOM Inspector 1.9b2pre&lt;br /&gt;
+Firebug 1.1.0b10&lt;br /&gt;
+FlashGot 0.7&lt;br /&gt;
+FoxyProxy 2.5.4&lt;br /&gt;
+Greasemonkey 0.7.20070607.0&lt;br /&gt;
+MLdonkey Protocol Handler 2.2&lt;br /&gt;
+Nightly Tester Tools 1.3b3&lt;br /&gt;
+NoScript 1.1.9&lt;br /&gt;
+PDF Download 0.9.3.2&lt;br /&gt;
+ScrapBook 1.3.2.1&lt;br /&gt;
+Stylish 0.5.3&lt;br /&gt;
+Tab Mix Plus 0.3.6.0.071030&lt;br /&gt;
+TwitterFox 1.2 [DISABLED]&lt;br /&gt;
+Update Notifier 0.1.5.3&lt;br /&gt;
+Web Developer 1.1.4&lt;br /&gt;
+YSlow 0.8.0&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Updated:&lt;/strong&gt; firebug
+1.0.5和ff3不兼容，更新到&lt;a href="http://getfirebug.com/releases/firebug/1.1/firebug-1.1.0b12.xpi" title="Firebug 1.1.0b12"&gt;&lt;/a&gt;&lt;a href="http://getfirebug.com/releases/firebug/1.1/firebug-1.1.0b12.xpi" title="Firebug 1.1.0b12"&gt;1.1.0b12&lt;/a&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 08 Dec 2007 01:13:00 +1100</pubDate><guid>tag:brucewang.net,2007-12-08:2007/12/121.html</guid><category>addons</category><category>firefox3</category><category>minefield</category><category>nightly tester tools</category></item><item><title>[转载][紧急通告]关于蓝色理想经典论坛无法访问的声明</title><link>https://brucewang.net/2007/11/120.html</link><description>&lt;p&gt;亲爱的&lt;a href="http://www.blueidea.com"&gt;蓝色理想网站&lt;/a&gt;及&lt;a href="http://bbs.blueidea.com/"&gt;经典论坛&lt;/a&gt;的会员朋友们，我们在这里非常遗憾地通知大家，在未来的一段时间里，我们将不能保证经典论坛的正常访问，由于来自外部的不可抗力，论坛服务器所在的机房已对我们进行封网处理，原因是相关监管部门接到举报，在我们的服务器上发现了有害内容，这已经是六天来的第二次封网了。&lt;/p&gt;
+&lt;p&gt;经过和主管部门的积极沟通后，获知这次的举报信息中没有涉及到具体的 URL
+和内容，只提交了 IP
+地址，从这点来看，无论我们如何迁移设备，都始终无法从根本上解决问题，排除人为因素，依靠我们卑微的智商实在想不出有什么原因会造成这样的结果。所以我们决定在没有得出行之有效的解决方案前，暂时关闭论坛的访问，请相信我们做出这样的决定也是万分无奈和十分痛心的，在此请允许我们致以最诚挚的歉意。&lt;/p&gt;
+&lt;p&gt;众所周知，蓝色理想是一个纯技术的网站，一直低调务实地为网友服务，为中国互联网做基础技术的普及工作，是广大网站开发设计同行在互联网上温馨的家，这也是这些年我们坚持下来的动力。希望了解我们网站的会员朋友，如有一定相关知识或公安关系资源的，与我们取得联系，协商解决方案，万分感谢！联系方式:
+blueidea[at]gmail[dot]com&lt;/p&gt;
+&lt;p&gt;本篇通告冀望藉由 blogosphere 传播，请有 blog
+和门户站点的朋友广为转载及引用此篇日志，谢谢。&lt;/p&gt;
+&lt;p&gt;转载地址是: &lt;a href="http://plod.popoever.com/archives/001329.html"&gt;http://plod.popoever.com/archives/001329.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="viridian"&gt;&lt;strong&gt;Update:&lt;/strong&gt;&lt;/span&gt;
+&lt;a href="http://plod.popoever.com/archives/001330.html"&gt;蓝色理想经典论坛有望近期临时性恢复！谢谢大家！&lt;/a&gt;
+[貌似论坛已经恢复了]&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 13 Nov 2007 00:31:00 +1100</pubDate><guid>tag:brucewang.net,2007-11-13:2007/11/120.html</guid><category>blueidea</category><category>紧急</category><category>蓝色理想</category><category>声明</category></item><item><title>Twitter Updates for 2007-11-04</title><link>https://brucewang.net/2007/11/119.html</link><description>&lt;ul&gt;
+&lt;li&gt;Joi 举了火影忍者Naruto的字幕的例子
+    &lt;a href="http://twitter.com/number5/statuses/386625902"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;为什么我的twitter更新没有旁边zola的快？
+    &lt;a href="http://twitter.com/number5/statuses/386653362"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;jiwai有个小GFW, 所以大屏幕和网页不是同步的 XD
+    &lt;a href="http://twitter.com/number5/statuses/386659242"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Xue Ying问Joi Ito: Sharism 经济是否适合中国
+    &lt;a href="http://twitter.com/number5/statuses/386674852"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;自从我揭露了jiwai的黑幕之后，jiwai就不让我上大屏幕了 :P
+    &lt;a href="http://twitter.com/number5/statuses/386679292"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;接下来的panel是Music 2.0
+    &lt;a href="http://twitter.com/number5/statuses/386687322"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/kenworker"&gt;@kenworker&lt;/a&gt;， 台上有 友播 &lt;a href="http://www.yobo.com,"&gt;http://www.yobo.com,&lt;/a&gt;
+    &lt;a href="http://www.8box.com"&gt;http://www.8box.com&lt;/a&gt; , 趣摘 &lt;a href="http://www.quzhai.com"&gt;http://www.quzhai.com&lt;/a&gt;
+    &lt;a href="http://twitter.com/number5/statuses/386713972"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;给年会所有没抱过的人一个hugs, I love you, bloggers
+    &lt;a href="http://twitter.com/number5/statuses/387648242"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;赢家酒店23：30打电话来和我确认我今晚交押金了么，火大！
+    &lt;a href="http://twitter.com/number5/statuses/387668772"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/thecarol"&gt;@thecarol&lt;/a&gt;, 明早我们也去，豆瓣观光团还没满员吧
+    &lt;a href="http://twitter.com/number5/statuses/387670222"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;问为什么不来年会，topku说; 要交钱 没意思
+    &lt;a href="http://twitter.com/number5/statuses/387694452"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sun, 04 Nov 2007 23:59:00 +1100</pubDate><guid>tag:brucewang.net,2007-11-04:2007/11/119.html</guid></item><item><title>Twitter Updates for 2007-11-03</title><link>https://brucewang.net/2007/11/118.html</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/chouti"&gt;@chouti&lt;/a&gt;, 今年IRC还开，还有一个打字飞快的人守着
+    &lt;a href="http://twitter.com/number5/statuses/384561342"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;年会IRC频道在 chat.freenode.net/#cnbloggercon
+    &lt;a href="http://twitter.com/number5/statuses/384563962"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;欣欣的视频不容错过
+    &lt;a href="http://twitter.com/number5/statuses/384585182"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/tsalon"&gt;@tsalon&lt;/a&gt;, 欣欣的视频只有现场才可以看到 XD 其他人只好迟点看重播了
+    &lt;a href="http://twitter.com/number5/statuses/384597632"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/doubleaf"&gt;@doubleaf&lt;/a&gt;, vista在会场右边第四排靠中间
+    &lt;a href="http://twitter.com/number5/statuses/384644532"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;第一个panel 开始了，是POPOEVER主持的mircoblogging, 有carol,
+    alexsoft, 等等参与
+    &lt;a href="http://twitter.com/number5/statuses/384695472"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/POPOEVER"&gt;@POPOEVER&lt;/a&gt;， &lt;a href="https://twitter.com/thecarol"&gt;@thecarol&lt;/a&gt;, &lt;a href="https://twitter.com/alexsoft"&gt;@alexsoft&lt;/a&gt; 场上的三位twitter
+    &lt;a href="http://twitter.com/number5/statuses/384708822"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;难道通过手机使用是jiwai.de的商业模式？
+    &lt;a href="http://twitter.com/number5/statuses/384728012"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/tinyfool"&gt;@tinyfool&lt;/a&gt;， jiwai是年会赞助商，所以右边屏幕显示jiwai
+    &lt;a href="http://twitter.com/number5/statuses/384752482"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;在场的bloggers请注意，只有SMC AP可以上IRC
+    &lt;a href="http://twitter.com/number5/statuses/384785942"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/doubleleaf"&gt;@doubleleaf&lt;/a&gt; 刚才讲的是好看簿的Alex Dong
+    &lt;a href="http://twitter.com/number5/statuses/384816832"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;空气不好，有点打瞌睡
+    &lt;a href="http://twitter.com/number5/statuses/385120922"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/myhat123"&gt;@myhat123&lt;/a&gt;， 我在努力学习archlinux
+    &lt;a href="http://twitter.com/number5/statuses/385508542"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/zheng"&gt;@zheng&lt;/a&gt;， DH服务器设置的是美国西岸时间(PST), 你要自己调成UTC+8啦
+    &lt;a href="http://twitter.com/number5/statuses/385596062"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 03 Nov 2007 23:59:00 +1100</pubDate><guid>tag:brucewang.net,2007-11-03:2007/11/118.html</guid></item><item><title>Twitter Updates for 2007-11-02</title><link>https://brucewang.net/2007/11/117.html</link><description>&lt;ul&gt;
+&lt;li&gt;在feedsky开网志小年会 XD
+    &lt;a href="http://twitter.com/number5/statuses/382190492"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;从赢家酒店出发去年会会场
+    &lt;a href="http://twitter.com/number5/statuses/382482372"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;At: "Jiwai.de - Chinese Blogger Conference 2007"
+    (http://tinyurl.com/33wyek)
+    &lt;a href="http://twitter.com/number5/statuses/383645382"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/lonsolo"&gt;@lonsolo&lt;/a&gt;, KJ应该是去了维基百科人北京聚会了，shizhao也去了
+    &lt;a href="http://twitter.com/number5/statuses/383713242"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/lonsonlo"&gt;@lonsonlo&lt;/a&gt;, 请参考我上一条
+    &lt;a href="http://twitter.com/number5/statuses/383715052"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Fri, 02 Nov 2007 23:59:00 +1100</pubDate><guid>tag:brucewang.net,2007-11-02:2007/11/117.html</guid></item><item><title>Twitter Updates for 2007-11-01</title><link>https://brucewang.net/2007/11/116.html</link><description>&lt;ul&gt;
+&lt;li&gt;gmail的速度奇慢无比，难道他们正帮我升级？
+    &lt;a href="http://twitter.com/number5/statuses/379381212"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/masn"&gt;@masn&lt;/a&gt;, 是啊，你准备明天来接车？
+    &lt;a href="http://twitter.com/number5/statuses/379386922"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/masn"&gt;@masn&lt;/a&gt;, 谢谢！年会见
+    &lt;a href="http://twitter.com/number5/statuses/379400202"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;太早到了，在火车站广场对面的kfc发呆
+    &lt;a href="http://twitter.com/number5/statuses/380250172"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;火车开了， 车上人很多
+    &lt;a href="http://twitter.com/number5/statuses/380392772"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;看了一部“料理鼠王”，该睡觉了。
+    &lt;a href="http://twitter.com/number5/statuses/380779212"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 01 Nov 2007 23:59:00 +1100</pubDate><guid>tag:brucewang.net,2007-11-01:2007/11/116.html</guid></item><item><title>Twitter Updates for 2007-10-31</title><link>https://brucewang.net/2007/10/115.html</link><description>&lt;ul&gt;
+&lt;li&gt;中文网址年会招募打字快的志愿者做IRC、Twitter文字直播，有意者请回复我或者直接联系herock
+    &lt;a href="http://twitter.com/number5/statuses/376638602"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/shizhao"&gt;@shizhao&lt;/a&gt;, 学我把twitter放在blog上就可以保持4了 ;) BTW:
+    你什么时候从bus那里搬出来啊？
+    &lt;a href="http://twitter.com/number5/statuses/376650332"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/thecarol"&gt;@thecarol&lt;/a&gt;,
+    你在你自己的twitter上不停的发年会的花边消息就是对年会的最大贡献 XD
+    &lt;a href="http://twitter.com/number5/statuses/376656732"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/POPOEVER"&gt;@POPOEVER&lt;/a&gt; 急事找你，见字打我手机或者COLORJD电话
+    &lt;a href="http://twitter.com/number5/statuses/377064852"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/KaurJmeb"&gt;@KaurJmeb&lt;/a&gt;， wikia的scratchpad很棒啊
+    &lt;a href="http://twitter.com/number5/statuses/377182432"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reading: "blog.pmarca.com: Open Social: a new universe of social
+    applications all over the web" (http://tinyurl.com/39pu5y)
+    &lt;a href="http://twitter.com/number5/statuses/377232882"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;reddit: CodeIgniter and SimplePie | 68 KB: [link][more]
+    &lt;a href="http://tinyurl.com/yw29zb"&gt;http://tinyurl.com/yw29zb&lt;/a&gt;
+    &lt;a href="http://twitter.com/number5/statuses/378007532"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Wed, 31 Oct 2007 23:59:00 +1100</pubDate><guid>tag:brucewang.net,2007-10-31:2007/10/115.html</guid></item><item><title>Twitter Updates for 2007-10-30</title><link>https://brucewang.net/2007/10/114.html</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/webleon"&gt;@webleon&lt;/a&gt;, 我用Miranda快7年了
+    &lt;a href="http://brucewang.net/number5/archives/000109.html"&gt;http://brucewang.net/number5/archives/000109.html&lt;/a&gt;
+    &lt;a href="http://twitter.com/number5/statuses/375535982"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 30 Oct 2007 23:59:00 +1100</pubDate><guid>tag:brucewang.net,2007-10-30:2007/10/114.html</guid></item><item><title>Twitter Updates for 2007-10-29</title><link>https://brucewang.net/2007/10/113.html</link><description>&lt;ul&gt;
+&lt;li&gt;在中文界面下google的搜索结果越来越不靠谱了，难道是向百度靠拢？
+    &lt;a href="http://twitter.com/number5/statuses/371556362"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/delphij"&gt;@delphij&lt;/a&gt;， 你在Google总部？
+    &lt;a href="http://twitter.com/number5/statuses/371568822"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/delphij"&gt;@delphij&lt;/a&gt;, 那你顺便转告他/她，我对“谷歌”很失望
+    &lt;a href="http://twitter.com/number5/statuses/371587892"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/chouti"&gt;@chouti&lt;/a&gt;, 如果你想真的用来收邮件，建议你用postfix或者exim
+    &lt;a href="http://twitter.com/number5/statuses/371654582"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;好饿，还有点四肢乏力
+    &lt;a href="http://twitter.com/number5/statuses/372239522"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/lvxinxin"&gt;@lvxinxin&lt;/a&gt;, feedsky离豆瓣办公室远么？
+    &lt;a href="http://twitter.com/number5/statuses/372763632"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Tangos"&gt;@Tangos&lt;/a&gt;, &lt;a href="https://twitter.com/herock"&gt;@herock&lt;/a&gt;, 两站地？ XD
+    &lt;a href="http://twitter.com/number5/statuses/372812162"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reading: "blog.pmarca.com: Serial entrepreneurs and today's Silicon
+    Valley" (http://tinyurl.com/37sy3v)
+    &lt;a href="http://twitter.com/number5/statuses/373006532"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Mon, 29 Oct 2007 23:59:00 +1100</pubDate><guid>tag:brucewang.net,2007-10-29:2007/10/113.html</guid></item><item><title>Twitter Updates for 2007-10-27</title><link>https://brucewang.net/2007/10/112.html</link><description>&lt;ul&gt;
+&lt;li&gt;今天尽力不想和工作相关的事
+    &lt;a href="http://twitter.com/number5/statuses/367604162"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/foxmachia"&gt;@foxmachia&lt;/a&gt;, OOPS是翻译推广MIT OCW和其他开发课程计划的组织
+    &lt;a href="http://twitter.com/number5/statuses/368304252"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;where can I find all my favorite photos on Flickr? I AM LOST
+    &lt;a href="http://twitter.com/number5/statuses/368418782"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 27 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-27:2007/10/112.html</guid></item><item><title>Twitter Updates for 2007-10-26</title><link>https://brucewang.net/2007/10/111.html</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/flypig"&gt;@flypig&lt;/a&gt;， 这个站点太有用了，就不知道是不是真的没有版权问题
+    &lt;a href="http://twitter.com/number5/statuses/364544802"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hdcola"&gt;@hdcola&lt;/a&gt;, 有用过powerdns么？感觉如何？
+    &lt;a href="http://twitter.com/number5/statuses/364653722"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Fri, 26 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-26:2007/10/111.html</guid></item><item><title>Twitter Updates for 2007-10-25</title><link>https://brucewang.net/2007/10/110.html</link><description>&lt;ul&gt;
+&lt;li&gt;大家请用https访问twitter, &lt;a href="https://twitter.com/home"&gt;https://twitter.com/home&lt;/a&gt;
+    &lt;a href="http://twitter.com/number5/statuses/362003152"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;twitterfox也有https的支持
+    &lt;a href="http://twitter.com/number5/statuses/362005742"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 25 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-25:2007/10/110.html</guid></item><item><title>没办法在Dreamhost上安装Wordpress OpenID插件</title><link>https://brucewang.net/2007/10/108.html</link><description>&lt;p&gt;已经使用了自己编译的php版本（加入GMP支持), OpenID插件使用的是 &lt;a href="http://willnorris.com/projects/wpopenid/"&gt;Will
+Norris的svn版本&lt;/a&gt;,
+但是一直激活不了。 怀疑是Dreamhost上FastCGI的时间限制导致php-cgi被kill.&lt;/p&gt;
+&lt;p&gt;看起来要换一个地方才行了。&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 25 Oct 2007 01:11:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-25:2007/10/108.html</guid><category>dreamhost</category><category>openid</category><category>wordpress</category></item><item><title>Twitter Updates for 2007-10-24</title><link>https://brucewang.net/2007/10/109.html</link><description>&lt;ul&gt;
+&lt;li&gt;reddit: How-to set up OpenID for Wordpress comments « Rotacoo:
+    [link][more] &lt;a href="http://tinyurl.com/2uwb5p"&gt;http://tinyurl.com/2uwb5p&lt;/a&gt;
+    &lt;a href="http://twitter.com/number5/statuses/360189432"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/isaac"&gt;@isaac&lt;/a&gt;， 升级twitterfox, 旧版和firefox 2.0.0.8不兼容
+    &lt;a href="http://twitter.com/number5/statuses/360220912"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Wed, 24 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-24:2007/10/109.html</guid></item><item><title>Twitter Updates for 2007-10-22</title><link>https://brucewang.net/2007/10/107.html</link><description>&lt;ul&gt;
+&lt;li&gt;准备11月1日晚搭火车到北京参加中文网志年会， 有谁想一起走么？
+    &lt;a href="http://twitter.com/number5/statuses/353564662"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/POPOEVER"&gt;@POPOEVER&lt;/a&gt;， 哈哈，我们来twitter大串联吧
+    &lt;a href="http://twitter.com/number5/statuses/353731042"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/sidekickick"&gt;@sidekickick&lt;/a&gt;， “嘢， 啲”普通话拼音一样有，不过就唔系哏易搵
+    &lt;a href="http://twitter.com/number5/statuses/354210492"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/flypig"&gt;@flypig&lt;/a&gt;, 哇噻，全能人才啊，我们这里很需要啊
+    &lt;a href="http://twitter.com/number5/statuses/354817152"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;居然让pylons在dreamhost上跑起来了，不容易啊
+    &lt;a href="http://twitter.com/number5/statuses/354832462"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Mon, 22 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-22:2007/10/107.html</guid></item><item><title>Twitter Updates for 2007-10-21</title><link>https://brucewang.net/2007/10/106.html</link><description>&lt;ul&gt;
+&lt;li&gt;twitterfox 1.1.5 修正了和firefox 2.0.0.8的不兼容问题，
+    链接又可以直接点击了
+    &lt;a href="http://twitter.com/number5/statuses/351489082"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;在dreamhost上编译php5 + gmp + bcmath
+    &lt;a href="http://twitter.com/number5/statuses/352057302"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sun, 21 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-21:2007/10/106.html</guid></item><item><title>Twitter Updates for 2007-10-20</title><link>https://brucewang.net/2007/10/105.html</link><description>&lt;ul&gt;
+&lt;li&gt;老婆和朋友去看演唱会了，我在等我的Pizza
+    &lt;a href="http://twitter.com/number5/statuses/349901402"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/lvxinxin"&gt;@lvxinxin&lt;/a&gt; 叫个外卖也奢侈啊？
+    &lt;a href="http://twitter.com/number5/statuses/349913882"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 20 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-20:2007/10/105.html</guid></item><item><title>Twitter Updates for 2007-10-19</title><link>https://brucewang.net/2007/10/104.html</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/zoomq"&gt;@zoomq&lt;/a&gt;, 不要为刷屏找接口 XD
+    &lt;a href="http://twitter.com/number5/statuses/346674332"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reading: "First knowee prototype is available - news - knowee"
+    (http://tinyurl.com/3xt7fr)
+    &lt;a href="http://twitter.com/number5/statuses/346885452"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/quanmengli"&gt;@quanmengli&lt;/a&gt; firefox 2.0.0.8 好像css渲染都有很大变化
+    &lt;a href="http://twitter.com/number5/statuses/347012662"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reading: "WordPress 2.3.1 Beta 1 out" (http://tinyurl.com/2l3qch)
+    &lt;a href="http://twitter.com/number5/statuses/347175542"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;reddit: WordPress 2.3.1 Beta 1: [link][more]
+    &lt;a href="http://tinyurl.com/2nodqp"&gt;http://tinyurl.com/2nodqp&lt;/a&gt;
+    &lt;a href="http://twitter.com/number5/statuses/347189012"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Fri, 19 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-19:2007/10/104.html</guid></item><item><title>Twitter Updates for 2007-10-18</title><link>https://brucewang.net/2007/10/103.html</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/dannyyu"&gt;@dannyyu&lt;/a&gt;, 我总是直觉的认为 OL = Office Lady 哈哈
+    &lt;a href="http://twitter.com/number5/statuses/343967482"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;any recommendation on professional DNS hosting service? for
+    secondary DNS backup
+    &lt;a href="http://twitter.com/number5/statuses/344088872"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/delphij"&gt;@delphij&lt;/a&gt;， 你推荐一个？ :)
+    &lt;a href="http://twitter.com/number5/statuses/344230912"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 18 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-18:2007/10/103.html</guid></item><item><title>Twitter Updates for 2007-10-17</title><link>https://brucewang.net/2007/10/102.html</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Glif"&gt;@Glif&lt;/a&gt;， 我觉得你们公司的网管和Google有仇
+    &lt;a href="http://twitter.com/number5/statuses/341825762"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/Glif"&gt;@Glif&lt;/a&gt;， 从你的更新看来google的产品很少有在你公司工作正常的 XD
+    &lt;a href="http://twitter.com/number5/statuses/341840122"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;太久没用英文写半正式的信了，很不习惯
+    &lt;a href="http://twitter.com/number5/statuses/342865212"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Wed, 17 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-17:2007/10/102.html</guid></item><item><title>Twitter Updates for 2007-10-16</title><link>https://brucewang.net/2007/10/101.html</link><description>&lt;ul&gt;
+&lt;li&gt;怪事了，我的系统会自动向前跳一天
+    &lt;a href="http://twitter.com/number5/statuses/339025942"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/thecarol"&gt;@thecarol&lt;/a&gt;， "传说中" 等价于 “Which-Must-Not-Be-Named" XD
+    &lt;a href="http://twitter.com/number5/statuses/339131382"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hdcola"&gt;@hdcola&lt;/a&gt;， 给家里所有机器都装上distcc
+    &lt;a href="http://twitter.com/number5/statuses/339163452"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 16 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-16:2007/10/101.html</guid></item><item><title>Twitter Updates for 2007-10-15</title><link>https://brucewang.net/2007/10/100.html</link><description>&lt;ul&gt;
+&lt;li&gt;浏览twitter首页的时候被重置了, 不好的预兆啊...
+    &lt;a href="http://twitter.com/number5/statuses/336162082"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/robinwang"&gt;@robinwang&lt;/a&gt;, 你有多少BEA股票? XD
+    &lt;a href="http://twitter.com/number5/statuses/336596992"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/yining"&gt;@yining&lt;/a&gt;， 你觉得用哪个词比较好？
+    &lt;a href="http://twitter.com/number5/statuses/336599822"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/myhat123"&gt;@myhat123&lt;/a&gt;, 我也在T43装了archlinux, 不过搞不定skype的中文输入
+    &lt;a href="http://twitter.com/number5/statuses/336710692"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;reddit: A quick tour of DRBD - MySQL-dump: [link][more]
+    &lt;a href="http://tinyurl.com/ywot8j"&gt;http://tinyurl.com/ywot8j&lt;/a&gt;
+    &lt;a href="http://twitter.com/number5/statuses/337099352"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[reddit] A quick tour of DRBD - MySQL-dump: [link][more]
+    &lt;a href="http://tinyurl.com/ywot8j"&gt;http://tinyurl.com/ywot8j&lt;/a&gt;
+    &lt;a href="http://twitter.com/number5/statuses/337105112"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[reddit] Squeezing code with xdebug | PHP Everywhere: [link][more]
+    &lt;a href="http://tinyurl.com/2buymf"&gt;http://tinyurl.com/2buymf&lt;/a&gt;
+    &lt;a href="http://twitter.com/number5/statuses/337596262"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;13094460605
+    今晚已经发给我两条spam短信了，请打电话不用钱又有空的同学打电话骚扰它
+    &lt;a href="http://twitter.com/number5/statuses/337609572"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;reddit: Squeezing code with xdebug | PHP Everywhere: [link][more]
+    &lt;a href="http://tinyurl.com/2buymf"&gt;http://tinyurl.com/2buymf&lt;/a&gt;
+    &lt;a href="http://twitter.com/number5/statuses/337643602"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Mon, 15 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-15:2007/10/100.html</guid></item><item><title>Twitter Updates for 2007-10-14</title><link>https://brucewang.net/2007/10/99.html</link><description>&lt;ul&gt;
+&lt;li&gt;看来我倒腾几个备份gmail邮箱的事情白做了， 不过看现在只有
+    3.15G的样子，还是有备无患好
+    &lt;a href="http://twitter.com/number5/statuses/335095752"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/foxmachia"&gt;@foxmachia&lt;/a&gt;, 好好休息，早点睡吧
+    &lt;a href="http://twitter.com/number5/statuses/335098652"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reading: "Gmail's Storage Increases, 6 GB in January 2008"
+    (http://tinyurl.com/2w7d9z)
+    &lt;a href="http://twitter.com/number5/statuses/335265972"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sun, 14 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-14:2007/10/99.html</guid></item><item><title>Twitter Updates for 2007-10-13</title><link>https://brucewang.net/2007/10/98.html</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/flypig"&gt;@flypig&lt;/a&gt;，
+    我现在在Google的默认语言是英文。前几天skype教育我们，连浏览器默认语言都要改成英文
+    &lt;a href="http://twitter.com/number5/statuses/333157442"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 13 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-13:2007/10/98.html</guid></item><item><title>Twitter Updates for 2007-10-12</title><link>https://brucewang.net/2007/10/97.html</link><description>&lt;ul&gt;
+&lt;li&gt;wordpress 2.3 改得东西也太多了，应该叫wordpress 3.0。
+    差不多有一半plugins不工作了 :(
+    &lt;a href="http://twitter.com/number5/statuses/329942902"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;下载skype的正确地址 &lt;a href="http://www.skype.com/intl/en/download"&gt;http://www.skype.com/intl/en/download&lt;/a&gt;
+    如果出现tom的图标，请将语言修改为英文再试
+    &lt;a href="http://twitter.com/number5/statuses/329992662"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.launchy.net/"&gt;http://www.launchy.net/&lt;/a&gt; 推荐使用
+    &lt;a href="http://twitter.com/number5/statuses/330431322"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Fri, 12 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-12:2007/10/97.html</guid></item><item><title>Twitter Updates for 2007-10-11</title><link>https://brucewang.net/2007/10/96.html</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/thecarol"&gt;@thecarol&lt;/a&gt;, 每次我见到“不能再同意你更多”就想笑 XD
+    &lt;a href="http://twitter.com/number5/statuses/326877312"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/flypig"&gt;@flypig&lt;/a&gt;， 根据初步测试minimo(firefox mobile)消耗内存比不上pocket IE,
+    和skype mobile比起来简直就是“温柔”
+    &lt;a href="http://twitter.com/number5/statuses/327016502"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 11 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-11:2007/10/96.html</guid></item><item><title>Twitter Updates for 2007-10-09</title><link>https://brucewang.net/2007/10/94.html</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/zoomq"&gt;@zoomq&lt;/a&gt;， django的百万级应用是哪个啊？
+    &lt;a href="http://twitter.com/number5/statuses/321670622"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hdcola"&gt;@hdcola&lt;/a&gt; 为啥不用mod_scgi, 简单多了
+    &lt;a href="http://twitter.com/number5/statuses/321705172"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hdcola"&gt;@hdcola&lt;/a&gt;， 有没有兴趣参加中文网志年会2007的Open source panel讨论？
+    &lt;a href="http://twitter.com/number5/statuses/321718572"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hdcola"&gt;@hdcola&lt;/a&gt;, 就是在北京，11月3-4日。到时你要接待我啊 XD
+    &lt;a href="http://twitter.com/number5/statuses/321726452"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;在国内访问skype官方网站都重定向到 skype.tom.com了。:(
+    在玩什么阴谋.... &lt;a href="http://twitter.com/number5/statuses/321872422"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reading: "Official: Selling Paid Links Can Hurt Your PageRank Or
+    Rankings On Google" (http://tinyurl.com/2vdoj8)
+    &lt;a href="http://twitter.com/number5/statuses/321921532"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/hdcola"&gt;@hdcola&lt;/a&gt; 可以的。 那个panel本来就准备放在四号
+    &lt;a href="http://twitter.com/number5/statuses/322164842"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/yongxinge"&gt;@yongxinge&lt;/a&gt;, 在维基百科编辑中推广学习信息架构(Information
+    Architecture)吧 &lt;a href="http://twitter.com/number5/statuses/322236602"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 09 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-09:2007/10/94.html</guid></item><item><title>Twitter Updates for 2007-10-08</title><link>https://brucewang.net/2007/10/93.html</link><description>&lt;ul&gt;
+&lt;li&gt;Google.com无法访问？？？
+    &lt;a href="http://twitter.com/number5/statuses/319409402"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;貌似是 208.67.219.230
+    这个地址的问题，这是opendns返回的www.google.com地址
+    &lt;a href="http://twitter.com/number5/statuses/319422952"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://picasaweb.google.com/number5/2007SichuanGansu"&gt;http://picasaweb.google.com/number5/2007SichuanGansu&lt;/a&gt;
+    国庆川北甘南之行 &lt;a href="http://twitter.com/number5/statuses/319434262"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reading: "'Storm' botnets, the next generation p2p worms/botnet "
+    (http://tinyurl.com/2xevsm)
+    &lt;a href="http://twitter.com/number5/statuses/319510802"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Mon, 08 Oct 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-10-08:2007/10/93.html</guid></item><item><title>Twitter Updates for 2007-08-11</title><link>https://brucewang.net/2007/08/50.html</link><description>&lt;ul&gt;
+&lt;li&gt;gmail上不去！！ :(
+    &lt;a href="http://twitter.com/number5/statuses/199460582"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;重启firefox之后，gmail可以访问了。 不知道哪里出了问题
+    &lt;a href="http://twitter.com/number5/statuses/199515812"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;刚刚在上海人家吃完饭， 点了个宵蹄膀， 剩一半打包回家
+    &lt;a href="http://twitter.com/number5/statuses/199638472"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;打雷了, 很恐怖 &lt;a href="http://twitter.com/number5/statuses/199761502"&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Powered by &lt;a href="http://alexking.org/projects/wordpress"&gt;Twitter Tools&lt;/a&gt;.&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 11 Aug 2007 23:59:00 +1000</pubDate><guid>tag:brucewang.net,2007-08-11:2007/08/50.html</guid></item><item><title>给非IT人士用的穿墙工具： Firefox PhProxy InBasic扩展</title><link>https://brucewang.net/2007/07/49.html</link><description>&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/3239"&gt;PhProxy - InBasic&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;优点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;不需要自己找phpproxy,默认就有一堆可用的&lt;/li&gt;
+&lt;li&gt;操作方便&lt;/li&gt;
+&lt;li&gt;适合非geek人群&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;PS: 有ssh帐号可以开tunnel的人就不要用了，效果没有那个好。  &lt;/p&gt;
+&lt;p&gt;我自己用的是dreamhost的ssh帐号+&lt;a href="http://www.putty.nl/"&gt;putty/plink&lt;/a&gt;+&lt;a href="http://foxyproxy.mozdev.org/quickstart.html"&gt;foxyproxy扩展&lt;/a&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Mon, 23 Jul 2007 13:38:00 +1000</pubDate><guid>tag:brucewang.net,2007-07-23:2007/07/49.html</guid><category>addons</category><category>firefox</category><category>gfw</category><category>phpproxy</category></item><item><title>变形金刚电影观后感</title><link>https://brucewang.net/2007/07/48.html</link><description>&lt;p&gt;电影特技和音响效果很棒，有暑期大片必备的所有元素。&lt;/p&gt;
+&lt;p&gt;感觉电影和我以前看的动画没什么联系，
+也就是故事背景和人物设定差不多而已。  &lt;/p&gt;
+&lt;p&gt;感觉比较古怪的地方有&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;大黄蜂应赞助商的要求进化了，
+    不再是黄色甲壳虫了，强迫高中生主角开豪华跑车&lt;/li&gt;
+&lt;li&gt;变形金刚变形之后的结构比变形之前还复杂，而且都黑黑的看不清楚&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;
+    音波(soundwave)那么丑的老式CD播放器怎么混上空军一号的？&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;
+    音波被锯断之后还可以变成手机， 跑到Hover
+    Dam的时候全部配件又飞回来了？&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;
+    音波被锯成几块断还能活蹦乱跳的，怎么爵士被撕成两段就死了呢？&lt;/li&gt;
+&lt;li&gt;Autobots拦截第七区的车队拯救男女主角的时候应该是用了EMP的，
+    怎么后面这帮家伙的手机还能用？&lt;/li&gt;
+&lt;li&gt;第七区的队伍对付大黄蜂的时候技术和配合相当纯熟，
+    怎么后来在中心反而束手无策？在城市巷战的时候飞索和冷冻剂统统没有用到&lt;/li&gt;
+&lt;li&gt;没有人会那么蠢把外星机器人和火种源放在同一个地方吧。&lt;/li&gt;
+&lt;/ol&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Mon, 23 Jul 2007 12:04:00 +1000</pubDate><guid>tag:brucewang.net,2007-07-23:2007/07/48.html</guid><category>cartoon</category><category>movies</category><category>transformers</category></item><item><title>building ubuntu backports is HARD!</title><link>https://brucewang.net/2007/06/47.html</link><description>&lt;p&gt;今天因为想在edgy下面用php 5.2, 仔细研究了prevu,
+想着有如此详细的指南总不会有问题吧&lt;/p&gt;
+&lt;p&gt;谁知prevu环境搭起来之后，先是遇到apt-get无法获取feisty的source package,
+后来手工从网上wget下来之后，dependency又一直没法满足...&lt;/p&gt;
+&lt;p&gt;火大，直接去改了apt sources.lst全部指向feisty,
+直接升级了apache和php以及相关包&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 19 Jun 2007 19:37:00 +1000</pubDate><guid>tag:brucewang.net,2007-06-19:2007/06/47.html</guid><category>backports</category><category>php5</category><category>Ubuntu</category></item><item><title>推荐使用文件河马(filehippo)下载站</title><link>https://brucewang.net/2007/06/46.html</link><description>&lt;p&gt;文件河马&lt;a href="http://filehippo.com"&gt;http://filehippo.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;很多常用的工具比如 firefox, uTorrent, ifranview, k-lite
+codec在这里都找得到，还有filter可以只显示freeware/open source的软件&lt;/p&gt;
+&lt;p&gt;好处是下载速度通常比原来的sf.net或者原网站快多了,
+而且这里的软件都是精挑细选的，质量通常都不错。&lt;/p&gt;
+&lt;p&gt;还有一个update工具看看你机器上的常用软件是不是有更新。&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 19 Jun 2007 19:35:00 +1000</pubDate><guid>tag:brucewang.net,2007-06-19:2007/06/46.html</guid><category>downloads</category><category>filehippo</category><category>freeware</category><category>opensource</category><category>software</category></item><item><title>联络家(Linkist.com)招募PHP/Java开发人员</title><link>https://brucewang.net/2007/04/45.html</link><description>&lt;h1&gt;We are making something big, if you want to make a difference, &lt;a href="http://searchjob.chinahr.com/SearchResult.aspx?companyName=%C1%AA%C2%E7%BC%D2&amp;amp;positionName=&amp;amp;indIDList=255&amp;amp;keytxt=%C1%AA%C2%E7%BC%D2&amp;amp;key=1&amp;amp;Search=%CB%D1%CB%F7"&gt;join us&lt;/a&gt;.&lt;/h1&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 10 Apr 2007 17:55:00 +1000</pubDate><guid>tag:brucewang.net,2007-04-10:2007/04/45.html</guid></item><item><title>让人头痛的有线通</title><link>https://brucewang.net/2007/03/44.html</link><description>&lt;p&gt;&lt;img alt="ARP
+Attack?" src="http://brucewang.net/wp-content/uploads/2007/03/arp_attack.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;6分钟之内发了5000多条ARP请求过来，平均&lt;strong&gt;每秒14条!!&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;无线路由器在这样的攻击下基本瘫痪了，需要直接连到cable
+modem才能勉强上网。（难道目的就是这个？）&lt;/p&gt;
+&lt;p&gt;家里两台电脑上网，用个无线路由器很正常吧，难道我购买了包月上网服务，&lt;/p&gt;
+&lt;p&gt;~~还要两个人守在cable
+modem旁边轮流上网~~(这样也是不行的，有线通的路由器只认一个MAC地址，除非两台电脑/网卡都改成一个MAC地址）？包月1M带宽的服务就是这样断断续续？&lt;/p&gt;
+&lt;p&gt;联系了东方有线通的客服，报了障，看看明天他们的工程师过来的时候怎么解释。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;：有线通的工程师来过了，一直和我解释断网的原因是因为分线我室内的有线电视信号不够强，我说信号弱我知道，但我之前一直用得好好的，为什么从3月29日开始就很不稳定，时断时续，然后给他看ethereal的包分析。结果是工程师向我清晰表明，有线通只负责保证cable
+modem收到足够强的信号，直连电脑可以上网(判断标准是ping通有线通的IP地址），至于我接路由器后能否上网他们不管，有没有ARP攻击他们也不管。最后见我抗议得厉害帮我换了一个信号强一些的有线电视端口。&lt;/p&gt;
+&lt;p&gt;来上海之后一直用有线通，因为安装不需要本地身份证，迁移也不收费，但到今天已经被他搞得烦不胜烦，浪费的时间怕是早超过节省下来的成本了。等过几个月搬家的时候，改用ADSL吧。&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 31 Mar 2007 01:00:00 +1000</pubDate><guid>tag:brucewang.net,2007-03-31:2007/03/44.html</guid><category>ARP-attack</category><category>cable_modem</category><category>宽带</category><category>有线通</category><category>上海</category></item><item><title>（迟到的）OpenID每周简报</title><link>https://brucewang.net/2007/03/42.html</link><description>&lt;ul&gt;
+&lt;li&gt;phpbb
+    新增&lt;a href="http://openid.phpbb.cc/2007/03/13/avatar-invasion"&gt;pavatar&lt;/a&gt;支持,
+    有了这个也许就不用担心gravatar再down机了&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://37signal.com"&gt;37signal&lt;/a&gt;刚刚发布的&lt;a href="http://www.highrisehq.com/"&gt;highrise&lt;/a&gt;支持OpenID登录，&lt;a href="http://www.37signals.com/svn/posts/332-highrise-early-stats-cases-for-all-the-new-solo-plan-and-more-disk-space"&gt;首周新增OpenID用户占所有新增用户的9%&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.klogs.org/2007/03/14/openid%e5%b0%8f%e5%9e%8b%e4%ba%a4%e6%b5%81%ef%bc%88%e4%b8%8a%e6%b5%b7%ef%bc%89.html"&gt;上海OpenID研讨会&lt;/a&gt;:
+    普及OpenID知识，探讨OpenID在中国的应用和发展&lt;/li&gt;
+&lt;li&gt;既然迟到了，就补充一条本周的新闻，&lt;a href="http://yupoo.com/"&gt;Yupoo&lt;/a&gt;正式支持&lt;a href="http://www.yupoo.com/account/openid"&gt;OpenID登录&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 31 Mar 2007 00:32:00 +1000</pubDate><guid>tag:brucewang.net,2007-03-31:2007/03/42.html</guid><category>highrise</category><category>openid</category><category>pavatar</category><category>phpbb</category><category>yupoo</category></item><item><title>OpenID consumer is ready!</title><link>https://brucewang.net/2007/03/41.html</link><description>&lt;p&gt;终于在dreamhost的主机上装好了&lt;a href="http://blog.verselogic.net/projects/wordpress/wordpress-openid-plugin/"&gt;Wordpress OpenID
+plugin&lt;/a&gt;,
+用的是svn的版本，加上Janrain的&lt;a href="http://www.openidenabled.com/openid/libraries/php/"&gt;PHP OpenID Library
+1.2.1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;第一次尝试安装是在去年11月份，自己编译了PHP5(DH的PHP默认安装没有GMP或者BCMATH扩展),
+采用FastCGI模式，但是怎么也没试成功，也没找到是什么原因，现在看来可能是之前的版本不支持CGI模式。&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sun, 18 Mar 2007 21:04:00 +1100</pubDate><guid>tag:brucewang.net,2007-03-18:2007/03/41.html</guid><category>openid</category><category>wordpress</category></item><item><title>Wordpress的升级和插件的版本管理</title><link>https://brucewang.net/2007/03/39.html</link><description>&lt;p&gt;&lt;a href="http://wordpress.org"&gt;wordpress&lt;/a&gt;的升级还是一件头疼的事, 尤其是�
+需要在不同的主机管理多个wordpress的时候。最方便的是&lt;a href="http://www.dreamhost.com"&gt;dreamhost&lt;/a&gt;的&lt;a href="http://wiki.dreamhost.com/index.php/KB_/_Account_Control_Panel_/_Goodies_::_One-Click_Installs_/_WordPress_Blog"&gt;one-click
+install&lt;/a&gt;,
+基本上从2.0.4到2.1.2都是这么升级过来的，也没出过什么问题。在其他主机或者VPS上的就没那么幸运了，要备份，�
+掉原来目录下所有文件，用新的版本解压，再把原来的wp-content目录和wp-config.php复制回来。&lt;/p&gt;
+&lt;p&gt;接下来这部分就要看看运气了，走运的话&lt;a href="http://brucewang.net/plugins-used/"&gt;全部插件(plugins)&lt;/a&gt;和theme都工作,
+那就没事了；不走运的话就要开始调，看看不工作的plugins有没有升级，theme有没有更新，如果是自己改动过的也就只能自己修修补补了。&lt;/p&gt;
+&lt;p&gt;如果wordpress也有像&lt;a href="http://www.splitbrain.org/projects/dokuwiki"&gt;DokuWiki&lt;/a&gt;一样的&lt;a href="http://wiki.splitbrain.org/plugin:plugin_manager"&gt;plugin
+manager&lt;/a&gt;就好了。
+这几天看到wordpress.org推出自己的&lt;a href="http://wordpress.org/extend/plugins/"&gt;插件中心&lt;/a&gt;了，希望很快会有类似的插件出来吧&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sun, 18 Mar 2007 20:36:00 +1100</pubDate><guid>tag:brucewang.net,2007-03-18:2007/03/39.html</guid><category>dokuwiki</category><category>plugins</category><category>plugin_manager</category><category>upgrade</category><category>wordpress</category></item><item><title>Sourceforge.net和Flashget有仇？</title><link>https://brucewang.net/2007/03/38.html</link><description>&lt;p&gt;自从&lt;a href="http://sourceforge.net"&gt;SourceForge&lt;/a&gt;改了下载镜像的设置之后，&lt;a href="http://www.flashget.com/"&gt;Flashget&lt;/a&gt;就没有办法正常下载SF下面的文件了，总是不停地被redirect，不知道怎么回事。用&lt;a href="http://www.gnu.org/software/wget/"&gt;wget&lt;/a&gt;就一点事都没有，顶多有时候默认镜像没有这个文件重定向一次而已。&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 15 Mar 2007 16:31:00 +1100</pubDate><guid>tag:brucewang.net,2007-03-15:2007/03/38.html</guid><category>flashget</category><category>sourceforge</category><category>wget</category></item><item><title>We don't need i-names in OpenID 2.0 specs, please keep OpenID lightweight</title><link>https://brucewang.net/2007/02/37.html</link><description>&lt;p&gt;The most thing I love about &lt;a href="http://openid.net"&gt;OpenID&lt;/a&gt;is that it's
+a *&lt;strong&gt;decentralized&lt;/strong&gt;* identity system, anyone with enough knowledge
+could setup a OpenID server in minutes, and with YADIS delegation
+support you can switch your identity provider in seconds, so there is no
+single failure point, and there is no Big Brother could control or
+monitor everything.&lt;/p&gt;
+&lt;p&gt;Yes, the url scheme still depends on DNS system, but DNS system is
+an *open system* and running successfully for decades to support the
+Internet. We all known how DNS system work and trusted it for a very
+long time.&lt;/p&gt;
+&lt;p&gt;So please don't make simple things complicated, i-names could be easily
+support using &lt;a href="http://idproxy.net"&gt;idproxy.net&lt;/a&gt;-like proxy, we don't
+need it in the core OpenID spec.&lt;/p&gt;
+&lt;p&gt;[&lt;em&gt;The above is copied from a reply to openid-general maillist&lt;/em&gt;]&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 13 Feb 2007 16:40:00 +1100</pubDate><guid>tag:brucewang.net,2007-02-13:2007/02/37.html</guid><category>i-names</category><category>identity</category><category>openid</category><category>url-based</category></item><item><title>互联网真的是互连互通的么？</title><link>https://brucewang.net/2007/01/32.html</link><description>&lt;p&gt;至少在中国不是。&lt;/p&gt;
+&lt;p&gt;家里宽带用的是上海东方有线的有线通，这几天gmail特别慢，基本上不可用，我就纳闷，白天在公司用得好好的，为什么到了晚上在家里就那么慢，听&lt;a href="http://xuerchen.com"&gt;xuer&lt;/a&gt;说也有同样问题，还以为是撞墙了。  &lt;/p&gt;
+&lt;p&gt;但是gmail是日常工具，没了几乎没法工作了，于是就尝试一下找个代理上，结果发现就算通过国内其他ISP代理出去，也比有线通直接连快得多!  &lt;/p&gt;
+&lt;p&gt;原来访问比较慢的像dreamhost上面的机器也可以用这种方法解决，我现在就在通过一个中国移动的socks5代理写这个帖子。&lt;/p&gt;
+&lt;p&gt;不知道是不是有线通的出国主干还有几条海底光缆没修好。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;：昨天中国电信宣布海底光缆修好了，今天在家Gmail好像就访问正常了。不过白天在公司网络不大正常，据说是“熊猫烧香”惹的祸。&lt;img alt="熊猫烧香" src="http://brucewang.net/wp-content/uploads/2007/01/panda.gif" /&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 27 Jan 2007 14:52:00 +1100</pubDate><guid>tag:brucewang.net,2007-01-27:2007/01/32.html</guid><category>dreamhost</category><category>gmail</category><category>Internet</category><category>isp</category><category>socks5</category><category>中国</category><category>互联网</category></item><item><title>为什么我会选择Firefox</title><link>https://brucewang.net/2007/01/30.html</link><description>&lt;ol&gt;
+&lt;li&gt;安全 （国内流氓病毒满天飞，安全第一）&lt;/li&gt;
+&lt;li&gt;遵循标准(W3C和其他标准)&lt;/li&gt;
+&lt;li&gt;Open Source
+    以及活跃的开发社区(不用担心某一天突然停止开发或者开始收费)&lt;/li&gt;
+&lt;li&gt;插件扩展无比强大，高度可定制化 （有超多好用的插件)&lt;/li&gt;
+&lt;li&gt;web developer friendly
+    (有firebug和webdeveloper插件帮忙，调试页面/AJAX不再是噩梦)&lt;/li&gt;
+&lt;/ol&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 20 Jan 2007 17:34:00 +1100</pubDate><guid>tag:brucewang.net,2007-01-20:2007/01/30.html</guid><category>browser</category><category>firefox</category><category>why</category></item><item><title>新浪博客 到 Wordpress 搬家(迁移) 指南 (DRAFT)</title><link>https://brucewang.net/2007/01/28.html</link><description>&lt;ol&gt;
+&lt;li&gt;用blogbus的搬家工具导出成blogbus格式&lt;/li&gt;
+&lt;li&gt;用blogbus2wordpress转换工具 转换成MT import格式&lt;/li&gt;
+&lt;li&gt;替换掉全角空格，导入wordpress&lt;/li&gt;
+&lt;li&gt;python过滤图片链接&lt;/li&gt;
+&lt;li&gt;wget批量下载、上传到服务器&lt;/li&gt;
+&lt;li&gt;regex replace批量替换媒体链接&lt;/li&gt;
+&lt;li&gt;大功告成&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;先大概记下来，细节稍后补全。&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 16 Jan 2007 18:32:00 +1100</pubDate><guid>tag:brucewang.net,2007-01-16:2007/01/28.html</guid><category>migration</category><category>sinablog</category><category>wordpress</category><category>搬家</category></item><item><title>Vim tips: 时间戳快捷键</title><link>https://brucewang.net/2006/12/25.html</link><description>&lt;p&gt;&lt;code&gt;:map &amp;lt;f2&amp;gt; a&amp;lt;c-r&amp;gt;=strftime("%c")&amp;lt;/c-r&amp;gt;&amp;lt;/f2&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;在非编辑模式下，按F2就会在光标位置插入一个当天时间的时间戳  &lt;/p&gt;
+&lt;p&gt;去掉前面的冒号, 加入到.vimrc, 以后用vim的时候就都有这个快捷键了  &lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sun, 31 Dec 2006 14:47:00 +1100</pubDate><guid>tag:brucewang.net,2006-12-31:2006/12/25.html</guid><category>shortcut</category><category>tips</category><category>vim</category></item><item><title>2006时代年度人物：你</title><link>https://brucewang.net/2006/12/24.html</link><description>&lt;p&gt;美国时代杂志发布了一篇文章&lt;br /&gt;
+&lt;a href="http://www.time.com/time/magazine/article/0,9171,1569514,00.html" title="Yes, you. You control the Information Age. Welcome to your world."&gt;&lt;strong&gt;Person of the Year:
+You&lt;/strong&gt;&lt;/a&gt;，里面对web2.0的解释很精彩，&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The new Web is a very different thing. It's a tool for bringing
+together the small contributions of millions of people and making them
+matter. Silicon Valley consultants call it Web 2.0, as if it were a
+new version of some old software. But it's really a revolution.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;试着翻译一下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这个新的Web是全新的事物。它是一个把成千上万人的小贡献聚集到一起并让这些小贡献变得有意义的工具。硅谷的IT顾问们称之为Web2.0，听起来好像是一个旧软件的新版本。但实际上这是一场革命。&lt;/p&gt;
+&lt;/blockquote&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Mon, 18 Dec 2006 15:36:00 +1100</pubDate><guid>tag:brucewang.net,2006-12-18:2006/12/24.html</guid><category>person_of_the_year</category><category>time_weekly</category><category>web2.0</category><category>you</category></item><item><title>DRM比我想象中更有破坏力</title><link>https://brucewang.net/2006/11/23.html</link><description>&lt;p&gt;摘自 &lt;a href="http://slashdot.org/linux/06/11/27/1145230.shtml"&gt;http://slashdot.org/linux/06/11/27/1145230.shtml&lt;/a&gt; 的一篇评论
+(精华总在评论中! -- &lt;a href="http://slashdot.org"&gt;slashdot&lt;/a&gt;的名言)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;DRM is about forcing you to run particular EXACT code, and either
+not running at all or refusing to talk to you if you are not.&lt;/strong&gt; This
+also happens to be the essence of DRM too... so it's a happy
+coincidence for the pro-DRMer within the technology companies.&lt;/p&gt;
+&lt;p&gt;Treacherous Computing is hardware that is meant to allow person X to
+set their hardware up to refuse to run (or not cage) software that is
+not digitally signed by them. As you can imagine, this COULD be
+extremely valuable for security. HOWEVER, the collection of companies
+making up the Trusted Computing Group (most of the tech companies)
+decided that the capability to TRUST should be reserved for them. You
+do not get to override it. This "trust" (only running approved code)
+starts with the BIOS, moves up to the kernel and in stuff like Vista
+it then moves into the media subsystem. In a few years, it will move
+into applications like web browsers, or word processors. Not running
+Microsoft Word? No you can't open that document, sorry. Add into this
+nasty mix, the ability of Trusted Computing hardware to execute code
+IN SECRET, and you have a control freak's wet dream. Not only can you
+not change what your computer does, you cannot even know what it is up
+to. The instructions are/can be encrypted.&lt;/p&gt;
+&lt;p&gt;Imagine it this way: a prison is very useful for keeping criminals in.
+It's not so good if YOU are the convict. In trusted computing as it is
+formulated today, YOU ARE THE CONVICT. You do not have the keys. Don't
+let them treat you like criminals. Demand the right to control your
+own PC -- you paid for it.&lt;/p&gt;
+&lt;p&gt;Trusted Computing is a political issue because it is a massive power
+grab by the technology companies. People may think Stallman is
+over-reacting, but I assure you that he is not. Look into the
+implications properly.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;注: Treacherous Computing = Trusted Computing  &lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 28 Nov 2006 14:35:00 +1100</pubDate><guid>tag:brucewang.net,2006-11-28:2006/11/23.html</guid><category>DRM</category><category>slashdot</category><category>software-piracy</category><category>Treacherous-Computing</category></item><item><title>关于胖葫芦的一些意见和建议</title><link>https://brucewang.net/2006/11/19.html</link><description>&lt;p&gt;&lt;a href="http://brucewang.net/2006/11/17/17"&gt;前几天&lt;/a&gt;还是高兴得太早了,
+只看到了&lt;a href="http://rss.modim.cn/"&gt;胖葫芦&lt;/a&gt;里面我的rss的标题,
+却没有发现点标题进去之后, 看到的内容不对,
+每一篇都是提交评论的英文提示信息, 胖葫芦到底找到了哪一个rss/atom feed呢?
+(注: 我是用&lt;a href="http://blog.modim.cn/2006/11/17/about-pang-id/"&gt;胖号&lt;/a&gt;订阅的)&lt;/p&gt;
+&lt;p&gt;想去手工改一下胖号对应的feed, 发现胖葫芦还没有这个功能. 仔细想了一下,
+有下面几个建议:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;提供胖号认领功能, 让blogger可以自己编辑, 指定RSS/ATOM&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;~~生成胖号之前查查有没重复, 刚才去试了一下,
+    又给我分配一个新的胖号: 62000296~~&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;读feed内容的时在手机上做缓存, 每次去读全部内容响应太慢, 同时用&lt;a href="http://www.hackdiary.com/archives/000028.html"&gt;HTTP
+    Conditional
+    GET&lt;/a&gt;来判断feed是否更新&lt;/li&gt;
+&lt;li&gt;如果可以在胖葫芦里面直接对blog评论, 就太棒了!&lt;/li&gt;
+&lt;li&gt;进度条的页面太丑, 可不可以在屏幕最下面显示进度,
+    上面还是显示feed标题列表?&lt;/li&gt;
+&lt;li&gt;提供&lt;a href="http://openid.net"&gt;OpenID&lt;/a&gt;支持, 既可以方便登录,
+    也可以直接认领胖号. 胖葫芦的网站是用Java做的吧, &lt;a href="http://netmesh.org/downloads/"&gt;这里有OpenID
+    Consumer的Java实现&lt;/a&gt;.
+    需要的话我也可以提供技术支持 :)&lt;/li&gt;
+&lt;/ol&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Tue, 21 Nov 2006 13:45:00 +1100</pubDate><guid>tag:brucewang.net,2006-11-21:2006/11/19.html</guid><category>atom</category><category>胖葫芦</category><category>Geek</category><category>mobile</category><category>openid</category><category>RSS</category></item><item><title>胖葫芦手机RSS阅读器</title><link>https://brucewang.net/2006/11/17.html</link><description>&lt;p&gt;从&lt;a href="http://www.klogs.org/2006/11/16/%e8%ae%a9%e4%ba%ba%e8%bd%bb%e6%9d%be%e8%b7%a8%e8%b6%8a%e6%89%8b%e6%9c%ba%e5%92%8c%e4%ba%92%e8%81%94%e7%bd%91%e7%9a%84%e8%83%96%e8%91%ab%e8%8a%a6.html"&gt;zheng&lt;/a&gt;那里得知消息的,
+很开心的发现我的古董 Nokia 6610在支持范围之内,
+马上&lt;a href="http://rss.modim.cn/download.htm"&gt;下载&lt;/a&gt;.&lt;br /&gt;
+两种标准模式都是下载到一半莫名其妙中断, 只好动用一下 &lt;a href="http://www.opera.com/products/mobile/operamini/"&gt;Opera
+Mini&lt;/a&gt; 研究一下这两个
+jad和jar的下载地址, 先用wget下载到我的电脑, 然后再用红外上传到手机,
+够曲折的.&lt;br /&gt;
+PS. 建议&lt;a href="http://rss.modim.cn"&gt;胖葫芦&lt;/a&gt;同时提供直接文件下载模式.&lt;/p&gt;
+&lt;p&gt;马上试一下订阅自己的blog, 在胖葫芦首页生成了胖ID,
+马上在手机上订阅(6610没有照相功能, 所以二维码是不用想了,
+直接输胖ID号搞定) , 哈哈, 终于可以在我的手机上读RSS了!&lt;/p&gt;
+&lt;p&gt;下面就是我这里的胖ID和二维码&lt;/p&gt;
+&lt;p&gt;
+&lt;script type="text/javascript" src="http://rss.modim.cn/js/showBarcode.jsp?code=62000296"&gt;&lt;/script&gt;
+&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Fri, 17 Nov 2006 02:09:00 +1100</pubDate><guid>tag:brucewang.net,2006-11-17:2006/11/17.html</guid><category>2d-barcode</category><category>胖葫芦</category><category>j2me</category><category>mobile</category><category>opera-mini</category><category>rss-reader</category></item><item><title>给老冒留言, Re: 在上海移动“旗舰店”体验</title><link>https://brucewang.net/2006/11/15.html</link><description>&lt;p&gt;(&lt;a href="http://www.uuzone.com/blog/mao/"&gt;老冒的blog&lt;/a&gt;要&lt;a href="http://www.uuzone.com/"&gt;uuzone&lt;/a&gt;的用户才能留言,
+让人不爽, 所以先写在这里.
+哪天等uuzone支持&lt;a href="http://openid.net/wiki/index.php/Main_Page_%28zh-cn%29"&gt;OpenID&lt;/a&gt;了,
+我再过去留言 XD)&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.uuzone.com/blog/mao/144219.htm"&gt;http://www.uuzone.com/blog/mao/144219.htm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;呵呵, 中国移动就是从中国电信分家出来的啊. 家谱关系如下&lt;/p&gt;
+&lt;p&gt;邮电局 分家 -&gt; 中国邮政 + 中国电信&lt;/p&gt;
+&lt;p&gt;中国电信 分家 -&gt; 中国电信 + 中国移动&lt;/p&gt;
+&lt;p&gt;中国电信主业 实业分离 -&gt; 中国电信 + n多大小公司&lt;/p&gt;
+&lt;p&gt;中国电信 + 网通 -&gt; 南北分治 的 中国电信 + 中国网通&lt;/p&gt;
+&lt;p&gt;.....&lt;/p&gt;
+&lt;p&gt;结论: &lt;strong&gt;中国电信运营商其实只有一家公司&lt;/strong&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Fri, 10 Nov 2006 14:55:00 +1100</pubDate><guid>tag:brucewang.net,2006-11-10:2006/11/15.html</guid><category>电信</category><category>留言</category><category>移动</category><category>老冒</category><category>rants</category><category>uuzone</category></item><item><title>Skype 3.0beta is cool</title><link>https://brucewang.net/2006/11/14.html</link><description>&lt;p&gt;多了很多新功能, 最cool的是这个:&lt;/p&gt;
+&lt;div id="skype-publicchat"
+style="background: white url(http://download.skype.com/share/publicchat/background.png) left bottom repeat-x !important; font: 11px/16px Arial, Helvetica, sans-serif !important;border: 1px solid #009de9 !important;"&gt;
+
+[OpenID in China](http://www.skype.com/go/joinpublicchat?chat&amp;skypename=number5&amp;topic=OpenID+in+China&amp;blob=A-OUg19KS-NthYWhXqIzDVVADSOyE1GWl0swf6hS2raHEBxfa2Hi2WaPKF7xVis) hosted by [number5](skype:number5?info). {style="padding: 50px 10px 9px 10px !important;margin: 0 !important;font: 12px/16px Arial, Helvetica, sans-serif !important;font-weight: bold !important;color: #999999 !important; background: transparent url(http://download.skype.com/share/publicchat/snippet_head_blue.png) left top no-repeat !important;"}
+====================================================================================================================================================================================================================
+
+[Join
+now](http://www.skype.com/go/joinpublicchat?chat&amp;skypename=number5&amp;topic=OpenID+in+China&amp;blob=A-OUg19KS-NthYWhXqIzDVVADSOyE1GWl0swf6hS2raHEBxfa2Hi2WaPKF7xVis)
+
+------------------------------------------------------------------------
+
+&lt;small style="font-size: 9px; color: #515151 !important;"&gt;Chat about
+what's on your mind. [More about public
+chats](http://www.skype.com/go/publicchats).&lt;/small&gt;
+
+&lt;/div&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 09 Nov 2006 01:21:00 +1100</pubDate><guid>tag:brucewang.net,2006-11-09:2006/11/14.html</guid><category>alwayson</category><category>publicchat</category><category>skype</category></item><item><title>Blog游戏接龙 - 我想在年会上见到的Blogger</title><link>https://brucewang.net/2006/10/12.html</link><description>&lt;p&gt;前面&lt;a href="http://www.zuola.com/weblog/?p=569"&gt;zoula&lt;/a&gt;,
+&lt;a href="http://www.yining.org/2006/10/25/blog-chaining-game-wish2meet/"&gt;yining&lt;/a&gt;,
+&lt;a href="http://www.klogs.org/2006/10/25/blog-chaining-game-wish2meet.html"&gt;zheng&lt;/a&gt;都写了,
+轮到我了&lt;/p&gt;
+&lt;p&gt;其实和前面几位都差不多,
+&lt;a href="http://www.socialbrain.org"&gt;SBF&lt;/a&gt;和&lt;a href="http://blog.cnblog.org/"&gt;cnblog.org&lt;/a&gt;的成员,
+&lt;a href="http://www.cnbloggercon.org/2006/Volunteers"&gt;年会的志愿者&lt;/a&gt;,
+上一届年会认识的一帮朋友(包括&lt;a href="http://www.royalshi.com"&gt;royal&lt;/a&gt;,
+&lt;a href="http://blog.vista.tw/"&gt;vista&lt;/a&gt;, &lt;a href="http://woooh.com/"&gt;aether&lt;/a&gt;,
+&lt;a href="http://www.zuola.com/weblog/"&gt;zoula&lt;/a&gt;, &lt;a href="http://in.comengo.net/"&gt;tangos&lt;/a&gt;,
+&lt;a href="http://www.icebin.net/"&gt;icebin&lt;/a&gt;, &lt;a href="http://blog.seehaha.com/"&gt;痒痒&lt;/a&gt;等等)&lt;/p&gt;
+&lt;p&gt;至于说比较期待的, 有下面几个:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.donews.net/keso/"&gt;Keso&lt;/a&gt;, 我们的头号种子选手,
+    常年闻其声不见其人, 这次要见到真人版了, 不错不错&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://livid.cn"&gt;livid&lt;/a&gt;, 一位很有性格的同学,
+    不知道&lt;a href="http://www.todou.com"&gt;土豆&lt;/a&gt;多出来的特色Blogger赞助名额最后是不是给了他,
+    也不知道他是否愿意来&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.uuzone.com/blog/mao/"&gt;老冒&lt;/a&gt;,
+    本来在上海应该很多机会碰到的, 不过好像每次机会都错过了,
+    这次应该有时间认识一下,好好聊聊&lt;/li&gt;
+&lt;li&gt;很多我不认识的bloggers, 其实这一类最值得期待, 看看这次又有什么惊喜,
+    会有更多新的面孔, 给我更多启示, 在我的订阅列表里面在增添几项新鲜血液&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;再过不到24小时, 年会的序幕就要揭开了, 期待中...&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 26 Oct 2006 23:48:00 +1000</pubDate><guid>tag:brucewang.net,2006-10-26:2006/10/12.html</guid><category>2006</category><category>blogger</category><category>cnbloggercon</category><category>game</category><category>hangzhou</category></item><item><title>Joe Gregorio: Radical Simplicity: Lessons From Dynamic Languages</title><link>https://brucewang.net/2006/10/10.html</link><description>&lt;p&gt;&lt;a href="http://bitworking.org" title="of Atom/APP fame"&gt;Joe
+Gregorio&lt;/a&gt;的一个关于python的演示&lt;a href="http://bitworking.org/projects/cascon06/"&gt;&lt;strong&gt;Radical
+Simplicity: Lessons From Dynamic
+Languages&lt;/strong&gt;&lt;/a&gt;, 很有意思&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Python为什么会有那么多Web Framework?"&lt;/p&gt;
+&lt;p&gt;"因为写一个太容易了"&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;接着给你演示一个花了3个小时60行代码完成的Web Framework
+&lt;a href="http://bitworking.org/projects/robaccia/"&gt;robaccia&lt;/a&gt;&lt;br /&gt;
+(当然, 少不了&lt;a href="http://www.kid-templating.org/"&gt;Kid&lt;/a&gt;,
+&lt;a href="http://www.sqlalchemy.org/"&gt;SQLAlchemy&lt;/a&gt;,
+&lt;a href="http://lukearno.com/projects/selector/"&gt;Selector&lt;/a&gt;,
+&lt;a href="http://www.wsgi.org/wsgi/WsgiStart"&gt;WSGI&lt;/a&gt;的功劳)&lt;/p&gt;
+&lt;p&gt;看着不过瘾还可以看Joe的Blog: &lt;a href="http://bitworking.org/news/Why_so_many_Python_web_frameworks"&gt;Why so many Python web
+frameworks&lt;/a&gt;&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Wed, 18 Oct 2006 15:03:00 +1000</pubDate><guid>tag:brucewang.net,2006-10-18:2006/10/10.html</guid><category>dynamic_languages</category><category>framework</category><category>python</category><category>simplicity</category><category>slides</category><category>web_frameworks</category></item><item><title>我的Firefox Addons(Extensions, Themes)</title><link>https://brucewang.net/2006/10/9.html</link><description>&lt;p&gt;&lt;span class="GeneratedHeader"&gt;Generated:&lt;/span&gt; Fri Oct 13 2006 13:51:51
+GMT+0800  &lt;/p&gt;
+&lt;p&gt;&lt;span class="UserAgentHeader"&gt;User Agent:&lt;/span&gt; Mozilla/5.0 (Windows;
+U; Windows NT 5.1; en-US; rv:1.8.0.7) Gecko/20060909 Firefox/1.5.0.7  &lt;/p&gt;
+&lt;p&gt;&lt;span class="BuildIDHeader"&gt;Build ID:&lt;/span&gt; 2006090918&lt;/p&gt;
+&lt;p&gt;&lt;span class="ExtensionHeader"&gt;Enabled Extensions:&lt;/span&gt; [35]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://adblockplus.org/"&gt;Adblock Plus&lt;/a&gt; 0.7.1.2 - Ads were
+    yesterday!&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://addneditcookies.mozdev.org/"&gt;Add N Edit Cookies&lt;/a&gt; 0.2.1.0 -
+    Cookie Editor that allows you add and edit session and saved cookies&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.milowski.com/software/atomic"&gt;Atomic&lt;/a&gt; 0.3 - An Atom
+    protocol client for creating and manipulating Atom feeds.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://roachfiend.com"&gt;BugMeNot&lt;/a&gt; 1.3 - Bypass compulsory web
+    registration with the context menu via www.bugmenot.com.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.borngeek.com/firefox/colt/"&gt;CoLT&lt;/a&gt; 2.2.1 - Adds a Copy
+    Link Text item to the browser's context menu.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://piki.org/patrick/"&gt;Coralize&lt;/a&gt; 0.7 - Load pages, links, and
+    images through Coral CDN.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.cutemenuproject.com/"&gt;CuteMenus - Crystal SVG&lt;/a&gt; 1.5.1 -
+    Adds icons to all menu items.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://delicious.mozdev.org/"&gt;del.icio.us Complete&lt;/a&gt; 1.3 -
+    del.icio.us is a social bookmarks manager. It allows you to easily
+    add sites you like to your personal collection of links, to
+    categorize those sites with keywords, and to share your collection
+    not only between your own browsers and machines, but also with
+    others.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.mozilla.org/projects/inspector/"&gt;DOM Inspector&lt;/a&gt;
+    1.8.0.7 - Inspect the DOM of HTML, XUL, and XML pages, including the
+    browser chrome.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.epigoon.com"&gt;Feedview&lt;/a&gt; 0.9.8 - Make your news feeds
+    nicer to read&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.joehewitt.com/software/firebug/"&gt;FireBug&lt;/a&gt; 0.4 - Web
+    Debugging Evolved&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://flashgot.net"&gt;FlashGot&lt;/a&gt; 0.5.96.060910 - Enables single and
+    massive ("all" and "selection") downloads using the most popular
+    external download managers for Windows, Mac OS X, Linux and FreeBSD
+    (dozens currently supported, see Extension's Home Page for details).
+    FlashGot offers also a Build Gallery functionality which helps to
+    synthetize full media galleries in one page from serial contents
+    originally scattered on several pages, for easy and fast "download
+    all".&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://forecastfox.mozdev.org/"&gt;Forecastfox&lt;/a&gt; 0.9.3.1 - Get
+    international weather forecasts and display it in any toolbar or
+    statusbar with this highly customizable extension.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://foxyproxy.mozdev.org"&gt;FoxyProxy&lt;/a&gt; 2.2.1 - FoxyProxy - Take
+    Back Your Privacy!&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.google.com/notebook"&gt;Google Notebook&lt;/a&gt; 1.0.0.10 - Allows
+    notetaking while browsing&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://greasemonkey.mozdev.org/"&gt;Greasemonkey&lt;/a&gt; 0.6.5.20060727 - A
+    User Script Manager for Firefox&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.gtdgmail.com"&gt;GTDGmail&lt;/a&gt; 1.23 - GTDGmail: Bringing GTD to
+    Gmail&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ietab.mozdev.org/"&gt;IE Tab&lt;/a&gt; 1.1.1.4 - Enables you to use the
+    embedded IE engine within Mozilla/Firefox.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://livehttpheaders.mozdev.org/"&gt;Live HTTP Headers&lt;/a&gt; 0.12 - View
+    HTTP headers of a page and while browsing.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.kevinfreitas.net/pro/extensions/"&gt;MeasureIt&lt;/a&gt; 0.3.5 -
+    Draw out a ruler to get the pixel width and height of any elements
+    on a webpage.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.mrtech.com/extensions/local_install/"&gt;MR Tech Local
+    Install&lt;/a&gt; 5.3 -
+    Local Install power tools for all users. (en-US)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://noscript.net"&gt;NoScript&lt;/a&gt; 1.1.4.4 - Extra protection for your
+    Firefox: NoScript allows JavaScript, Java (and other plugins) only
+    for trusted domains of your choice (e.g. your home-banking web
+    site). This whitelist based pre-emptive blocking approach prevents
+    exploitation of security vulnerabilities (known and even unknown!)
+    with no loss of functionality... Experts will agree: Firefox is
+    really safer with NoScript :-)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.pdfdownload.org"&gt;PDF Download&lt;/a&gt; 0.7.6 - Allows to choose
+    what you want to do with a PDF file: download it, view it with an
+    external viewer or view it as HTML!&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://pearlcrescent.com/products/pagesaver/"&gt;Pearl Crescent Page Saver
+    Basic&lt;/a&gt; 1.2 - Save an
+    image of a web page to a file.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://amb.vis.ne.jp/mozilla/scrapbook/"&gt;ScrapBook&lt;/a&gt; 1.2.0.6 - Helps
+    you to save Web pages and organize the collection.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.iosart.com/firefox/searchpluginhacks/"&gt;SearchPluginHacks&lt;/a&gt;
+    0.1.3 - Allows uninstalling search plugins - just right click on a
+    search plugin and choose 'Delete'&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.openqa.org/selenium-ide/"&gt;Selenium IDE&lt;/a&gt; 0.8.0 - Record,
+    edit and play Selenium tests&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.google.com/search?q=Firefox%20Snapper"&gt;Snapper&lt;/a&gt; 1.3 -
+    Allows you to create a snapshot of a designated area in a web page.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://userstyles.org/stylish/"&gt;Stylish&lt;/a&gt; 0.4 - Customize the look
+    of websites and of the user interface.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://morphis.eu.org/"&gt;Super DragAndGo&lt;/a&gt; 0.2.6 - Drag a link or
+    anything like a uri (e.g. "abc.com" ), and throw it to anywhere
+    blank on the webpage to open the it in a new tab.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://tmp.garyr.net"&gt;Tab Mix Plus&lt;/a&gt; 0.3.0.5 - Tab browsing with an
+    added boost.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://addons.mozilla.org/extensions/moreinfo.php?id=2240"&gt;Tails
+    Export&lt;/a&gt;
+    0.3.1 - Extension for Showing and Exporting Microformats.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.longfocus.com/firefox/updatenotifier"&gt;Update Notifier&lt;/a&gt;
+    0.1.4 - Notifies you when updates are available for your extensions
+    and themes.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://jennifermadden.com"&gt;View Source Chart&lt;/a&gt; 2.4.05 - Creates a
+    Colorful Chart of a Webpage's Rendered Source.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://chrispederick.com/work/webdeveloper/"&gt;Web Developer&lt;/a&gt; 1.0.2 -
+    Adds a menu and a toolbar with various web developer tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class="ExtensionDisabledHeader"&gt;Disabled Extensions:&lt;/span&gt; [1]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://wmlbrowser.mozdev.org"&gt;wmlbrowser&lt;/a&gt; 0.7.8 - Display WML
+    (Wireless Markup Language) content.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class="ExtensionHeader"&gt;Total Extensions: 36&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="ThemeHeader"&gt;Installed Themes:&lt;/span&gt; [5]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="http://azertyskin.free.fr/"&gt;Azerty III&lt;/a&gt; 2.0&lt;/strong&gt; - Pretty and
+    pleasant icons. Built to accompagny Azerty 'mail.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.charamel.ca"&gt;Charamel&lt;/a&gt; 1.2.0.2 - A Creamy Sugary
+    Experience&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.mozilla.org/"&gt;Firefox (default)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.webether.com"&gt;macfox&lt;/a&gt; 1.1.5 - OSX Theme ported to PC&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://siriux.net/"&gt;Tango Icons&lt;/a&gt; 1.4.8 - Tango Icons for Mozilla
+    Firefox&lt;/li&gt;
+&lt;/ul&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Fri, 13 Oct 2006 13:55:00 +1000</pubDate><guid>tag:brucewang.net,2006-10-13:2006/10/9.html</guid><category>addons</category><category>extensions</category><category>firefox</category></item><item><title>Quote on robot fighter</title><link>https://brucewang.net/2006/09/7.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;The role of the human air force is to bomb the wreckage when the
+robot air force goes wrong, so as to keep the technology out of enemy
+hands.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;via &lt;a href="http://www.longtail.com/the_long_tail/2006/09/lebanon_or_term.html"&gt;Lebanon or
+"Terminator"&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;:D&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 07 Sep 2006 15:53:00 +1000</pubDate><guid>tag:brucewang.net,2006-09-07:2006/09/7.html</guid><category>air_force</category><category>alwayson</category><category>robot</category></item><item><title>Cute Magnets</title><link>https://brucewang.net/2006/08/4.html</link><description>&lt;style type="text/css"&gt;
+.flickr-photo { border: solid 2px #000000; }&lt;br&gt;&lt;/br&gt;
+.flickr-yourcomment { }&lt;br&gt;&lt;/br&gt;
+.flickr-frame { text-align: left; padding: 3px; }&lt;br&gt;&lt;/br&gt;
+.flickr-caption { font-size: 0.8em; margin-top: 0px; }&lt;br&gt;&lt;/br&gt;
+&lt;/style&gt;
+
+&lt;div class="flickr-frame"&gt;
+
+[![](http://static.flickr.com/62/206996508_0596a1023d.jpg)](http://www.flickr.com/photos/brucewang/206996508/ "photo sharing")  
+
+
+&lt;span class="flickr-caption"&gt;[Cute
+Magnets](http://www.flickr.com/photos/brucewang/206996508/), originally
+uploaded by [number5](http://www.flickr.com/people/brucewang/).&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;magnets on my refrigerator&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Sat, 19 Aug 2006 17:33:00 +1000</pubDate><guid>tag:brucewang.net,2006-08-19:2006/08/4.html</guid><category>cute</category><category>Life</category><category>magnets</category><category>photo</category><category>refrigerator</category></item><item><title>收到Ubuntu 6.06 的免费光碟了</title><link>https://brucewang.net/2006/06/3.html</link><description>&lt;p&gt;8张PC版的，1张Mac版的，1张64bit版的，一共10张, 还附送贴纸&lt;/p&gt;
+&lt;p&gt;等有时间，在T43上面装一套，再贴上Ubuntu Logo :)&lt;/p&gt;
+&lt;p&gt;谁有兴趣，在上海可以找我拿。&lt;/p&gt;
+&lt;p&gt;其他地方的可以考虑去 &lt;a href="https://shipit.ubuntu.com/"&gt;https://shipit.ubuntu.com/&lt;/a&gt; 申请,
+大概半个月就能收到&lt;/p&gt;&lt;script src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">number5</dc:creator><pubDate>Thu, 22 Jun 2006 11:59:00 +1000</pubDate><guid>tag:brucewang.net,2006-06-22:2006/06/3.html</guid><category>linux</category><category>shipit</category><category>Ubuntu</category></item></channel></rss>

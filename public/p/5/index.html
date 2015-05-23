@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>Bruce Wang - Simple, Love, Courage</title>
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css' />
+      <link href='https://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'/>
+      <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,700' rel='stylesheet' type='text/css'/>
+      <link rel="stylesheet" type="text/css" href="/theme/css/icons.css"/>
+      <link rel="stylesheet" type="text/css" href="/theme/css/styles.css"/>
+      <meta charset="utf-8" />
+  </head>
+
+  <body id="index">
+    <!-- header -->
+    <header class="siteheader">
+      <!-- site image -->
+
+      <div class = "sitebanner">
+        <h1><a class="sitetitle nodec" href="../..">Bruce Wang - Simple, Love, Courage</a></h1>
+        <h3 class ="sitesubtitle"></h3>
+        <!-- nav -->
+        <nav class="menu">
+          <ul>
+            <!-- menu items-->
+            <!--pages-->
+                <li><a class="nodec" href="../../pages/2.html">About</a></li>
+            <!-- services icons -->
+              <li><a class="nodec icon-github" rel="me" href="https://github.com/number5"></a></li>
+              <li><a class="nodec icon-stackoverflow" rel="me" href="http://stackoverflow.com/users/29489/number5"></a></li>
+              <li><a class="nodec icon-twitter" rel="me" href="https://twitter.com/number5"></a></li>
+          </ul>
+        </nav>
+      </div> <!-- sitebanner -->
+    </header>
+
+    <!-- content -->
+
+<section class="content">
+
+  <ol id="postlist">
+
+    <li class="post">
+        <header class="posttitle">
+          <h3><a href="../../2007/12/126.html"
+                  rel="bookmark"
+                  class="nodec"
+                  title="Permalink to 神奇啊，Wordpress OpenID plugin 终于在dreamhost上工作了">神奇啊，Wordpress OpenID plugin 终于在dreamhost上工作了</a>
+          </h3>
+        </header>
+
+        <div class="postinfo">
+          <p class="published" title="2007-12-10T20:12:00+11:00"> Mon 10 December 2007 </p>
+        </div><!-- /.postinfo -->
+
+        <div class="postsummary"> <p><a href="http://http://wordpress.org/extend/plugins/openid" title="wordpress openid plugin">wp-openid</a>升级到2.1.2
+然后重新启用自己编译的php5 fastcgi,  这次居然成功了！</p>
+<p>也好，可以继续在dreamhost呆着，不用搬家了</p><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script> </div>
+    </li>
+    <li class="post">
+        <header class="posttitle">
+          <h3><a href="../../2007/12/125.html"
+                  rel="bookmark"
+                  class="nodec"
+                  title="Permalink to Midori - A webkit based browser for Gnome">Midori - A webkit based browser for Gnome</a>
+          </h3>
+        </header>
+
+        <div class="postinfo">
+          <p class="published" title="2007-12-08T02:30:00+11:00"> Sat 08 December 2007 </p>
+        </div><!-- /.postinfo -->
+
+        <div class="postsummary"> <p><a href="http://www.footbig.com/photo/9614"><img alt="" src="http://fleet1.footbig.com/390/m/6d/f0/6df083f8e7ade3fd8a3fb70f23d66de6-8431.png" /></a></p>
+<p><a href="http://software.twotoasts.de/?page=midori">Midori</a> 基于webkitgtk,
+还处于alpha阶段，javascript支持还有问题，但是从渲染效果和浏览速度来看已经很不错了</p><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script> </div>
+    </li>
+    <li class="post">
+        <header class="posttitle">
+          <h3><a href="../../2007/12/124.html"
+                  rel="bookmark"
+                  class="nodec"
+                  title="Permalink to 让scim支持skype (Archlinux)">让scim支持skype (Archlinux)</a>
+          </h3>
+        </header>
+
+        <div class="postinfo">
+          <p class="published" title="2007-12-08T01:59:00+11:00"> Sat 08 December 2007 </p>
+        </div><!-- /.postinfo -->
+
+        <div class="postsummary"> <p><strong>Update</strong>:  不需要scim-qtimm或者scim-bridge也可以支持skype(qt), 
+<a href="http://brucewang.net/2008/03/04/129">具体配置见这里</a></p>
+<p>关键的问题在于编译一个<a href="http://www.scim-im.org/projects/scim_qtimm">scim-qtimm</a>的模块(Ubuntu上也是用这个方案），似乎很久都没有人维护了，只有cvs版本才支持qt4，
+鉴于我的skype 2.0.0.13 beta已经是动态链接到qt4的，所以决定用cvs版本。</p>
+<p>好在Archlinux为自己建package提供了非常方便的工具 makepkg/PKGBUILD
+系统，在认真了解scons这个python
+make工具以及被人遗忘的bksys系统之后，终于让我build成功并安装了。</p>
+<p>配置参考<a href="http://www.scim-im.org/wiki/documentation/installation_and_configuration/all/system_configuration" title="SCIM Configuration">scim官方文档</a>,
+其实也挺简单的，在 \~/.xinitrc里面加上这三行就行  </p>
+<p><code>export XMODIFIERS=<a href="https://twitter.com/im">@im</a>=SCIM    #case matters for this variable! export GTK_IM_MODULE=scim export QT_IM_MODULE=scim</code></p>
+<p>附件是我写的<a href="http://brucewang.net/wp-content/uploads/2007/12/pkgbuild" title="scim-qtimm-cvs PKGBUILD">scim-qtimm-cvs
+PKGBUILD</a></p><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script> </div>
+    </li>
+    <li class="post">
+        <header class="posttitle">
+          <h3><a href="../../2007/12/122.html"
+                  rel="bookmark"
+                  class="nodec"
+                  title="Permalink to Twitter Tools 很久没有帮我自动每日总结了">Twitter Tools 很久没有帮我自动每日总结了</a>
+          </h3>
+        </header>
+
+        <div class="postinfo">
+          <p class="published" title="2007-12-08T01:15:00+11:00"> Sat 08 December 2007 </p>
+        </div><!-- /.postinfo -->
+
+        <div class="postsummary"> <p>要找个时间修理一下它</p><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script> </div>
+    </li>
+    <li class="post">
+        <header class="posttitle">
+          <h3><a href="../../2007/12/121.html"
+                  rel="bookmark"
+                  class="nodec"
+                  title="Permalink to 在Firefox/Minefield 3.0b2pre中启用所有插件(Addons)">在Firefox/Minefield 3.0b2pre中启用所有插件(Addons)</a>
+          </h3>
+        </header>
+
+        <div class="postinfo">
+          <p class="published" title="2007-12-08T01:13:00+11:00"> Sat 08 December 2007 </p>
+        </div><!-- /.postinfo -->
+
+        <div class="postsummary"> <p>装上<a href="http://www.oxymoronical.com/web/firefox/nightly" title="NTT">Nightly Tester
+Tools</a>，到Addons选项窗口点Mark
+All As Compatible就可以了</p>
+<p>我目前浏览器的ID Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9b2pre)
+Gecko/2007120404 Minefield/3.0b2pre ID:2007120404</p>
+<p>Addons列表</p>
+<p>Adblock Plus 0.7.5.3<br />
+CuteMenus - Crystal SVG 1.9.1<br />
+del.icio.us 1.2.1<br />
+DOM Inspector 1.9b2pre ...</p> </div>
+    </li>
+    <li class="post">
+        <header class="posttitle">
+          <h3><a href="../../2007/11/120.html"
+                  rel="bookmark"
+                  class="nodec"
+                  title="Permalink to [转载][紧急通告]关于蓝色理想经典论坛无法访问的声明">[转载][紧急通告]关于蓝色理想经典论坛无法访问的声明</a>
+          </h3>
+        </header>
+
+        <div class="postinfo">
+          <p class="published" title="2007-11-13T00:31:00+11:00"> Tue 13 November 2007 </p>
+        </div><!-- /.postinfo -->
+
+        <div class="postsummary"> <p>亲爱的<a href="http://www.blueidea.com">蓝色理想网站</a>及<a href="http://bbs.blueidea.com/">经典论坛</a>的会员朋友们，我们在这里非常遗憾地通知大家，在未来的一段时间里，我们将不能保证经典论坛的正常访问，由于来自外部的不可抗力，论坛服务器所在的机房已对我们进行封网处理，原因是相关监管部门接到举报，在我们的服务器上发现了有害内容，这已经是六天来的第二次封网了。</p>
+<p>经过和主管部门的积极沟通后，获知这次的举报信息中没有涉及到具体的 URL
+和内容，只提交了 IP
+地址，从这点来看，无论我们如何迁移设备，都始终无法从根本上解决问题，排除人为因素，依靠我们卑微的智商实在想不出有什么原因会造成这样的结果。所以我们决定在没有得出行之有效的解决方案前，暂时关闭论坛的访问，请相信我们做出这样的决定也是万分无奈和十分痛心的，在此请允许我们致以最诚挚的歉意。</p>
+<p>众所周知，蓝色理想是一个纯技术的网站，一直低调务实地为网友服务，为中国互联网做基础技术的普及工作，是广大网站开发设计同行在互联网上温馨的家，这也是这些年我们坚持下来的动力。希望了解我们网站的会员朋友，如有一定相关知识或公安关系资源的，与我们取得联系，协商解决方案，万分感谢！联系方式:
+blueidea[at]gmail[dot]com</p>
+<p>本篇通告冀望藉由 blogosphere 传播，请有 ...</p> </div>
+    </li>
+    <li class="post">
+        <header class="posttitle">
+          <h3><a href="../../2007/11/119.html"
+                  rel="bookmark"
+                  class="nodec"
+                  title="Permalink to Twitter Updates for 2007-11-04">Twitter Updates for 2007-11-04</a>
+          </h3>
+        </header>
+
+        <div class="postinfo">
+          <p class="published" title="2007-11-04T23:59:00+11:00"> Sun 04 November 2007 </p>
+        </div><!-- /.postinfo -->
+
+        <div class="postsummary"> <ul>
+<li>Joi 举了火影忍者Naruto的字幕的例子
+    <a href="http://twitter.com/number5/statuses/386625902">#</a></li>
+<li>为什么我的twitter更新没有旁边zola的快？
+    <a href="http://twitter.com/number5/statuses/386653362">#</a></li>
+<li>jiwai有个小GFW, 所以大屏幕和网页不是同步的 XD
+    <a href="http://twitter.com/number5/statuses/386659242">#</a></li>
+<li>Xue Ying问Joi Ito: Sharism 经济是否适合中国
+    <a href="http://twitter.com/number5/statuses/386674852">#</a></li>
+<li>自从我揭露了jiwai的黑幕之后，jiwai就不让我上大屏幕了 :P
+    <a href="http://twitter.com/number5/statuses/386679292">#</a></li>
+<li>接下来的panel是Music 2.0
+    <a href="http://twitter.com/number5/statuses/386687322">#</a></li>
+<li><a href="https://twitter.com/kenworker">@kenworker</a>， 台上有 友播 <a href="http://www.yobo.com,">http://www.yobo.com,</a>
+    <a href="http://www.8box.com">http://www.8box.com</a> , 趣摘 <a href="http://www.quzhai.com">http://www.quzhai.com</a>
+    <a href="http://twitter.com/number5/statuses/386713972">#</a></li>
+<li>给年会所有没抱过的人一个hugs, I love you, bloggers
+    <a href="http://twitter.com/number5/statuses/387648242">#</a></li>
+<li>赢家酒店23：30打电话来和我确认我今晚交押金了么，火大！
+    <a href="http://twitter.com/number5/statuses/387668772">#</a></li>
+<li><a href="https://twitter.com/thecarol">@thecarol</a>, 明早我们也去，豆瓣观光团还没满员吧
+    <a href="http://twitter.com/number5/statuses/387670222">#</a></li>
+<li>问为什么不来年会，topku说; 要交钱 没意思
+    <a href="http://twitter.com/number5/statuses/387694452">#</a></li>
+</ul>
+<p>Powered by ...</p> </div>
+    </li>
+    <li class="post">
+        <header class="posttitle">
+          <h3><a href="../../2007/11/118.html"
+                  rel="bookmark"
+                  class="nodec"
+                  title="Permalink to Twitter Updates for 2007-11-03">Twitter Updates for 2007-11-03</a>
+          </h3>
+        </header>
+
+        <div class="postinfo">
+          <p class="published" title="2007-11-03T23:59:00+11:00"> Sat 03 November 2007 </p>
+        </div><!-- /.postinfo -->
+
+        <div class="postsummary"> <ul>
+<li><a href="https://twitter.com/chouti">@chouti</a>, 今年IRC还开，还有一个打字飞快的人守着
+    <a href="http://twitter.com/number5/statuses/384561342">#</a></li>
+<li>年会IRC频道在 chat.freenode.net/#cnbloggercon
+    <a href="http://twitter.com/number5/statuses/384563962">#</a></li>
+<li>欣欣的视频不容错过
+    <a href="http://twitter.com/number5/statuses/384585182">#</a></li>
+<li><a href="https://twitter.com/tsalon">@tsalon</a>, 欣欣的视频只有现场才可以看到 XD 其他人只好迟点看重播了
+    <a href="http://twitter.com/number5/statuses/384597632">#</a></li>
+<li><a href="https://twitter.com/doubleaf">@doubleaf</a>, vista在会场右边第四排靠中间
+    <a href="http://twitter.com/number5/statuses/384644532">#</a></li>
+<li>第一个panel 开始了，是POPOEVER主持的mircoblogging, 有carol,
+    alexsoft, 等等参与
+    <a href="http://twitter.com/number5/statuses/384695472">#</a></li>
+<li><a href="https://twitter.com/POPOEVER">@POPOEVER</a>， <a href="https://twitter.com/thecarol">@thecarol</a>, <a href="https://twitter.com/alexsoft">@alexsoft</a> 场上的三位twitter
+    <a href="http://twitter.com/number5/statuses/384708822">#</a></li>
+<li>难道通过手机使用是jiwai.de的商业模式？
+    <a href="http://twitter.com/number5/statuses/384728012">#</a></li>
+<li><a href="https://twitter.com/tinyfool">@tinyfool</a>， jiwai是年会赞助商，所以右边屏幕显示jiwai
+    <a href="http://twitter.com/number5/statuses/384752482">#</a></li>
+<li>在场的bloggers请注意，只有SMC AP可以上IRC
+    <a href="http://twitter.com/number5/statuses/384785942">#</a></li>
+<li><a href="https://twitter.com/doubleleaf">@doubleleaf</a> 刚才讲的是好看簿的Alex Dong
+    <a href="http://twitter.com/number5/statuses/384816832">#</a></li>
+<li>空气不好，有点打瞌睡
+    <a href="http://twitter.com/number5/statuses/385120922">#</a></li>
+<li><a href="https://twitter.com/myhat123">@myhat123</a>， 我在努力学习archlinux
+    <a href="http://twitter.com/number5/statuses/385508542">#</a></li>
+<li><a href="https://twitter.com/zheng">@zheng</a>， DH服务器设置的是美国西岸时间(PST), 你要自己调成UTC+8啦
+    <a href="http://twitter.com/number5/statuses/385596062">#</a></li>
+</ul>
+<p>Powered by <a href="http://alexking.org/projects/wordpress">Twitter Tools</a>.</p><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script> </div>
+    </li>
+    <li class="post">
+        <header class="posttitle">
+          <h3><a href="../../2007/11/117.html"
+                  rel="bookmark"
+                  class="nodec"
+                  title="Permalink to Twitter Updates for 2007-11-02">Twitter Updates for 2007-11-02</a>
+          </h3>
+        </header>
+
+        <div class="postinfo">
+          <p class="published" title="2007-11-02T23:59:00+11:00"> Fri 02 November 2007 </p>
+        </div><!-- /.postinfo -->
+
+        <div class="postsummary"> <ul>
+<li>在feedsky开网志小年会 XD
+    <a href="http://twitter.com/number5/statuses/382190492">#</a></li>
+<li>从赢家酒店出发去年会会场
+    <a href="http://twitter.com/number5/statuses/382482372">#</a></li>
+<li>At: "Jiwai.de - Chinese Blogger Conference 2007"
+    (http://tinyurl.com/33wyek)
+    <a href="http://twitter.com/number5/statuses/383645382">#</a></li>
+<li><a href="https://twitter.com/lonsolo">@lonsolo</a>, KJ应该是去了维基百科人北京聚会了，shizhao也去了
+    <a href="http://twitter.com/number5/statuses/383713242">#</a></li>
+<li><a href="https://twitter.com/lonsonlo">@lonsonlo</a>, 请参考我上一条
+    <a href="http://twitter.com/number5/statuses/383715052">#</a></li>
+</ul>
+<p>Powered by <a href="http://alexking.org/projects/wordpress">Twitter Tools</a>.</p><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script> </div>
+    </li>
+    <li class="post">
+        <header class="posttitle">
+          <h3><a href="../../2007/11/116.html"
+                  rel="bookmark"
+                  class="nodec"
+                  title="Permalink to Twitter Updates for 2007-11-01">Twitter Updates for 2007-11-01</a>
+          </h3>
+        </header>
+
+        <div class="postinfo">
+          <p class="published" title="2007-11-01T23:59:00+11:00"> Thu 01 November 2007 </p>
+        </div><!-- /.postinfo -->
+
+        <div class="postsummary"> <ul>
+<li>gmail的速度奇慢无比，难道他们正帮我升级？
+    <a href="http://twitter.com/number5/statuses/379381212">#</a></li>
+<li><a href="https://twitter.com/masn">@masn</a>, 是啊，你准备明天来接车？
+    <a href="http://twitter.com/number5/statuses/379386922">#</a></li>
+<li><a href="https://twitter.com/masn">@masn</a>, 谢谢！年会见
+    <a href="http://twitter.com/number5/statuses/379400202">#</a></li>
+<li>太早到了，在火车站广场对面的kfc发呆
+    <a href="http://twitter.com/number5/statuses/380250172">#</a></li>
+<li>火车开了， 车上人很多
+    <a href="http://twitter.com/number5/statuses/380392772">#</a></li>
+<li>看了一部“料理鼠王”，该睡觉了。
+    <a href="http://twitter.com/number5/statuses/380779212">#</a></li>
+</ul>
+<p>Powered by <a href="http://alexking.org/projects/wordpress">Twitter Tools</a>.</p><script src="//platform.twitter.com/widgets.js" charset="utf-8"></script> </div>
+    </li>
+
+  </ol><!-- /#post-list -->
+
+<p class="paginator">
+        <a href="../../p/4/">&laquo;</a>
+    Page 5 / 15
+        <a href="../../p/6/">&raquo;</a>
+</p>
+
+</section><!-- /#content -->
+
+
+    <!-- footer -->
+    <footer>
+      <p>
+        © Bruce Wang, license <a href="http://creativecommons.org/licenses/by-nc/4.0/"> Creative Commons Attribution-NonCommercial 4.0 International License</a>
+        unless otherwise noted.
+        Generated by <a href= "http://docs.getpelican.com/">Pelican</a> with
+        <a href="http://github.com/porterjamesj/crowsfoot">crowsfoot</a> theme.
+      </p>
+    </footer>
+  </body>
+</html>

@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Bruce Wang'
 SITENAME = u'Bruce Wang - Simple, Love, Courage'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'https://brucewang.net'
 TIMEZONE = "Australia/Melbourne"
 
 # can be useful in development, but set to False when you're ready to publish
@@ -15,7 +15,6 @@ TRANSLATION_FEED_ATOM = None
 
 OUTPUT_PATH = 'public/'
 
-GITHUB_URL = 'http://github.com/number5/'
 DISQUS_SITENAME = "brucewang-simplelovecourage"
 PDF_GENERATOR = False
 REVERSE_CATEGORY_ORDER = True
@@ -50,11 +49,11 @@ DIRECT_TEMPLATES = ['index', 'archives']
 PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
 
 
-THEME = '/Users/bruce/src/git/crowsfoot'
+THEME = 'crowsfoot'
 
 
 GITHUB_ADDRESS = 'https://github.com/number5'
-#SO_ADDRESS` (Stackoverflow)
+SO_ADDRESS = 'http://stackoverflow.com/users/29489/number5'
 TWITTER_ADDRESS = 'https://twitter.com/number5'
 
 #PROFILE_IMAGE_URL
