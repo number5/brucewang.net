@@ -15,7 +15,7 @@ TRANSLATION_FEED_ATOM = None
 
 OUTPUT_PATH = 'public/'
 
-DISQUS_SITENAME = "brucewang-simplelovecourage"
+DISQUS_SITENAME = "simplelovecourage"
 PDF_GENERATOR = False
 REVERSE_CATEGORY_ORDER = True
 LOCALE = "C"
@@ -87,3 +87,6 @@ CATEGORY_SAVE_AS = False
 
 # plugins
 PLUGINS = ['plugins.embed_tweet']
+
+GOOGLE_ANALYTICS = 'UA-147870-2'
+
