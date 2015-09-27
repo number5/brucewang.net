@@ -6,6 +6,8 @@ SITENAME = u'Bruce Wang - Simple, Love, Courage'
 SITEURL = 'https://brucewang.net'
 TIMEZONE = "Australia/Melbourne"
 
+
+PATH = 'content'
 # can be useful in development, but set to False when you're ready to publish
 RELATIVE_URLS = True
 FEED_ALL_ATOM = None
@@ -49,7 +51,7 @@ DIRECT_TEMPLATES = ['index', 'archives']
 PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
 
 
-THEME = 'crowsfoot'
+THEME = 'themes/pelicanyanplus'
 
 
 GITHUB_ADDRESS = 'https://github.com/number5'

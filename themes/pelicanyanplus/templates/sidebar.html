@@ -1,0 +1,34 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <div class="profile">
+      <img src="{{ SITEURL }}/theme/img/profile.png"/>
+    </div>
+  </div>
+
+  <nav class="sidebar-nav">
+  <!--<a class="sidebar-nav-item" href="/"><b>Blog Home<b></a>-->
+  
+  {# note: categories not in use
+  {% for category, articles in categories %}
+      <a class="sidebar-nav-item" href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>
+  {% endfor %}
+  #}
+
+  {% for title, href in LINKS %}
+  <a class="sidebar-nav-item" href="{{ href }}">{{ title }}</a>
+  {% endfor %}
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+    &copy; <a href="https://twitter.com/{{ TWITTER_ACCOUNT }}">@{{ TWITTER_ACCOUNT }}</a> under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>
+    </p>
+    <p class="tiny-note">
+      <a class="muted" href="https://github.com/dhimmel/blog">source on github</a>
+    </p>
+  </div>
+</div>
