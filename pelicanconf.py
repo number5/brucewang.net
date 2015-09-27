@@ -90,5 +90,5 @@ CATEGORY_SAVE_AS = False
 # plugins
 PLUGINS = ['plugins.embed_tweet']
 
-GOOGLE_ANALYTICS = 'UA-147870-2'
+GA_ACCOUNT = 'UA-147870-2'
 
